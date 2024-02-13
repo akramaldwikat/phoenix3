@@ -1,0 +1,40 @@
+.no-padding
+{
+    padding: 0px;
+
+}
+.no-margin
+{
+    margin: 0;
+}
+
+li
+{
+    display: inline-block;
+    list-style: none;
+}
+ul,ol
+{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a
+{
+    display: inline-block;
+    color:initial;
+}
+
+a:hover,a:focus
+{
+    color:initial;
+    text-decoration: none;
+}
+
+img 
+{
+    max-width: 100%;
+    height: auto;
+}

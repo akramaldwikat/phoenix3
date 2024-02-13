@@ -1,0 +1,557 @@
+/* ========================= font ============================= */
+
+@font-face {
+    font-family: "PoppinsRegular";
+    src: url("../fonts/PoppinsRegular.ttf") format("truetype"),
+        url("../fonts/PoppinsRegular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "PoppinsMedium";
+    src: url("../fonts/PoppinsMedium.ttf") format("truetype"),
+        url("../fonts/PoppinsMedium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "PoppinsBold";
+    src: url("../fonts/PoppinsBold.ttf") format("truetype"),
+        url("../fonts/PoppinsBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "PoppinsExtraBold";
+    src: url("../fonts/PoppinsExtraBold.ttf") format("truetype"),
+        url("../fonts/PoppinsExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "PoppinsSemiBold";
+    src: url("../fonts/PoppinsSemiBold.ttf") format("truetype"),
+        url("../fonts/PoppinsSemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "PoppinsLight";
+    src: url("../fonts/PoppinsLight.ttf") format("truetype"),
+        url("../fonts/PoppinsLight.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "PoppinsExtraLight";
+    src: url("../fonts/PoppinsExtraLight.ttf") format("truetype"),
+        url("../fonts/PoppinsExtraLight.ttf") format("truetype");
+}
+
+/* ========================= font ============================= */
+
+/* ========================= global ============================= */
+
+:root {
+    --main-color: #c33130;
+    --secondary-color: #f1760a;
+    --black-color: #000;
+    --white-color: #fff;
+    --light-gray-color: #f8f9f9;
+    --gray-color: #757678;
+
+    --font-regular: "PoppinsRegular";
+    --font-medium: "PoppinsMedium";
+    --font-bold: "PoppinsBold";
+    --font-sm-bold: "PoppinsSemiBold";
+    --font-ex-bold: "PoppinsExtraBold";
+    --font-light: "PoppinsLight";
+    --font-ex-light: "PoppinsExtraLight";
+}
+
+/************************************1024px*********************************************/
+@media (max-width: 1024px) {
+
+    header .headerBottom .headerBottomRight,
+    header .headerTop .container .headerTopLeft,
+    header .headerTop .container .headerTopRight {
+        justify-content: center;
+        display: none;
+    }
+
+    header .headerTop .container .headerTopMobile ul {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    header .headerTop .container .headerTopLeft ul {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    header .headerBottom .headerBottomLeft a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        font-size: 28px;
+        font-weight: 700;
+        justify-content: center;
+    }
+
+    header .headerBottom .headerBottomCenter {
+        margin: 15px 0;
+        display: none;
+    }
+
+    header .headerBottom .headerBottomRight ul {
+        justify-content: center;
+    }
+
+    .slider,
+    .slider .slide,
+    .slider .slideImage img {
+        height: auto;
+    }
+
+    .slider li.slide .content {
+        font-size: 18px;
+    }
+
+    .aboutUs {
+        position: relative;
+        padding: 50px 0;
+    }
+
+    .aboutUs .image {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .aboutUs .about {
+        float: right;
+        width: 100%;
+    }
+
+    .aboutUs .food h2 {
+        font-size: 45px;
+        font-family: var(--font-bold);
+        color: var(--main-color);
+        rotate: 90deg;
+        position: absolute;
+        left: -10%;
+        top: 20%;
+    }
+
+    .aboutUs .about .title {
+        width: 100%;
+    }
+
+    .aboutUs .about .image {
+        width: auto;
+    }
+
+    .aboutUs .about .count .image {
+        width: 50px;
+    }
+
+    .aboutUs .about .count .image::after {
+        left: -25px;
+    }
+
+    .whyUs .group {
+        padding-left: 0;
+        display: inline-block;
+        width: 100%;
+        padding: 45px 0;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .whyUs .group .subGroup {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .whyUs .group fieldset {
+        width: 45%;
+    }
+
+    .whyUs .group .container {
+        max-width: 100%;
+        width: 98% !important;
+        margin: 0 auto;
+    }
+
+    .whyUs .image {
+        float: right;
+        width: 100%;
+    }
+
+    .whyUs .image img {
+        height: 440px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .whyUs .burger {
+        display: none;
+    }
+
+    .news,
+    .ourMenu {
+        padding: 50px 0;
+        position: relative;
+    }
+
+    footer .footerTop .footerLogo {
+        text-align: center;
+    }
+
+    footer .footerTop .footerSubscribe .payment,
+    footer .footerTop .footerSubscribe form,
+    footer .footerTop .footerLogo .socail ul,
+    footer .footerTop .footerLogo .logoo {
+        justify-content: center;
+    }
+
+    .footerMenu {
+        margin: 35px 0;
+        text-align: center;
+    }
+
+    .footerOtherLink,
+    .footerCategory {
+        margin-bottom: 35px;
+        text-align: center;
+    }
+
+    footer .footerBottom .footerCopyright,
+    .footerCopyright,
+    .footerSubscribe {
+        text-align: center;
+    }
+
+    .whyUs {
+        height: auto;
+    }
+
+    .searchForm {
+        width: 90%;
+    }
+
+    header .headerTop .headerTopMobile,
+    header .headerBottom .headerBottomMobile {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header .headerBottom .headerBottomMobile {
+        position: unset;
+    }
+
+    /* header .headerBottom .headerBottomMobile .menuMobile {
+        display: none;
+    } */
+
+    header .headerBottom {
+        position: relative;
+        /* overflow-x: hidden; */
+    }
+
+    header .headerBottom .headerBottomMobile .menuMobile {
+        background-color: var(--secondary-color);
+        position: absolute;
+        left: -100%;
+        top: 100%;
+        z-index: 999;
+        width: 100%;
+        height: 100vh;
+        padding: 25px 0;
+        transition: all 0.5s;
+    }
+
+    header .headerBottom .headerBottomMobile .menuMobile.active {
+        left: 0;
+        transition: all 0.5s;
+    }
+
+    header .headerBottom .headerBottomMobile .menuMobile .searchMobile {
+        border-bottom: 2px solid var(--white-color);
+        margin-bottom: 25px;
+    }
+
+    header .headerBottom .headerBottomMobile .menuMobile .searchMobile input {
+        width: 95%;
+        border-radius: 5px;
+        background: url();
+        padding: 8px 0px;
+        border: 0;
+        outline: none;
+        color: var(--white-color);
+        font-size: 20px;
+    }
+
+    header .headerBottom .headerBottomMobile .menuMobile .searchMobile input::placeholder {
+        color: var(--white-color);
+    }
+
+    header .headerBottom .headerBottomMobile .menuMobile .mainMenuMobile {
+        width: 100%;
+        padding-bottom: 25px;
+        margin-bottom: 25px;
+        border-bottom: 1.5px solid var(--white-color);
+    }
+
+    header .headerBottom .headerBottomMobile .menuMobile .mainMenuMobile li {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    header .headerBottom .headerBottomMobile .menuMobile .mainMenuMobile li:last-child {
+        margin-bottom: unset;
+    }
+
+    header .headerBottom .headerBottomMobile .menuMobile .mainMenuMobile li a {
+        font-size: 20px;
+        color: var(--white-color);
+        font-family: var(--font-medium);
+    }
+
+    header .headerBottom .headerBottomMobile .menuMobile .currencys {
+        display: flex;
+        align-items: center;
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    header .headerBottom .headerBottomMobile .menuMobile .lang {
+        display: flex;
+        align-items: center;
+        padding-right: 0;
+        justify-content: center;
+    }
+
+    header .headerBottom .headerBottomMobile .menuMobile .lang button,
+    header .headerBottom .headerBottomMobile .menuMobile .currencys button {
+        font-size: 20px;
+        color: var(--white-color);
+        font-family: var(--font-medium);
+        padding: 0 0 0 5px;
+    }
+
+    .innerTop {
+        height: 250px;
+    }
+
+    #sign-up-form {
+        width: 75%;
+    }
+
+    .page-contactUs .innerContent main form fieldset.group .form-group {
+        width: 100%;
+    }
+
+    .page-contactUs .branches .contactTop fieldset {
+        margin-bottom: 30px;
+    }
+
+    .page-contactUs .innerContent aside nav.socailMedia {
+        margin-bottom: 35px;
+    }
+
+    .logIn .dropdown-menu {
+        left: unset;
+        right: 0;
+    }
+
+    .page-myOrder .innerContent aside nav,
+    .page-accountInfo .innerContent aside nav,
+    .page-checkout .innerContent main form {
+        margin-bottom: 30px;
+    }
+
+    .page-checkout-decline .box,
+    .page-checkout-success .box {
+        width: 75%;
+    }
+
+    .page-myOrder .innerContent main .myOrderInfo {
+        width: 100%;
+        overflow: auto;
+    }
+
+    .page-menu3 .content #ourMenu .card-body,
+    .page-menu2 .content #ourMenu .card-body {
+        gap: 10px;
+    }
+
+}
+
+/************************************767px*********************************************/
+@media (max-width: 767px) {
+    header .headerBottom .headerBottomRight ul {
+        display: flex;
+        align-items: center;
+        gap: 13px;
+        flex-wrap: wrap;
+    }
+
+    .slider li.slide fieldset .container {
+        width: 94% !important;
+    }
+
+    .slider li.slide .content {
+        width: 82%;
+    }
+
+    .aboutUs .image img {
+        height: auto;
+    }
+
+    .aboutUs .food h2 {
+        display: none;
+    }
+
+    .whyUs .group .subGroup {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .whyUs .group fieldset {
+        width: 100%;
+    }
+
+    .whyUs .group .title {
+        font-size: 38px;
+    }
+
+    .news .new img {
+        width: 100%;
+    }
+
+    .aboutUs .about .count {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .aboutUs .about .count fieldset {
+        width: 100%;
+        text-align: center;
+    }
+
+    .aboutUs .about .count .image {
+        width: 50px;
+    }
+
+    .aboutUs .about .count .image::after {
+        content: "";
+        width: 68px;
+        height: 68px;
+        border-radius: 50px;
+        background-color: #EFE9DA;
+        position: absolute;
+        left: -10px;
+        top: -10px;
+        z-index: -1;
+    }
+
+    .searchForm .closed {
+        margin-bottom: 15px;
+        position: unset;
+    }
+
+    footer .footerTop .footerSubscribe form {
+        flex-direction: column;
+    }
+
+    header .headerBottom .container {
+        width: 90% !important;
+    }
+
+    header .headerBottom .headerBottomMobile .menuMobile .searchMobile input {
+        width: 92%;
+    }
+
+    .innerTop {
+        height: 170px;
+    }
+
+    #sign-in-form,
+    #sign-up-form {
+        width: 90%;
+    }
+
+    #sign-up-form .info {
+        text-align: center;
+    }
+
+    #sign-in-form ul {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .page-accountInfo .innerContent main form fieldset.group .form-group,
+    .page-checkout .innerContent main form fieldset.group .form-group {
+        width: 100%;
+    }
+
+    .page-checkout .innerContent main form fieldset.payments {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .page-checkout-decline .box,
+    .page-checkout-success .box {
+        width: 100%;
+    }
+
+    .page-menu .mainCategory {
+        width: 100%;
+        overflow: auto;
+    }
+
+    .page-menu2 .content .topContent,
+    .page-sub-menu .content .topContent,
+    .page-menu .content .topContent {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .page-sub-menu #ourMenu .product.listItems .card,
+    .page-menu #ourMenu .product.listItems .card {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .page-menu #ourMenu .product.listItems .card .list-group,
+    .page-menu #ourMenu .product.listItems .card .list-group.addOrder,
+    .page-sub-menu #ourMenu .product.listItems .card .list-group.addOrder {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .page-menu3 .content #ourMenu .card-body,
+    .page-menu2 .content #ourMenu .card-body {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .dropdown-toggle::after {
+        display: none;
+    }
+
+    .logIn button {
+        padding: 0;
+    }
+
+
+}
