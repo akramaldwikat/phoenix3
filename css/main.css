@@ -2055,7 +2055,7 @@ footer .footerBottom a:hover {
 
 .page-menu2 .category .categ.scrolled {
     position: fixed;
-    top: 26%;
+    top: 0%;
     width: 20%;
 }
 
@@ -2416,7 +2416,7 @@ input[type="range"]::-webkit-slider-thumb {
 
 .page-menu3 .category .categ.scrolled {
     position: fixed;
-    top: 26%;
+    top: 0%;
     width: 20%;
 }
 
