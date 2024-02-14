@@ -289,7 +289,7 @@ jQuery(document).ready(function () {
     // left side scrolling calculation...... remove fixed class and top margin
     var rightHeight = jQuery('.innerContent .content').outerHeight();
     var leftHeight = jQuery('.innerContent .category .categ').outerHeight() + 50;
-    var margin = (rightHeight - leftHeight + 50) * -1;
+    var margin = (rightHeight - leftHeight + 50);
     var removeFixedOffset = sectionOffset + rightHeight - leftHeight;
 
     jQuery(window).on('scroll', function () {
@@ -300,7 +300,7 @@ jQuery(document).ready(function () {
             jQuery('.innerContent .category .categ').removeClass('scrolled');
         }
         if (jQuery(this).scrollTop() > removeFixedOffset) {
-            jQuery('.innerContent .category .categ').removeClass('fixed');
+            jQuery('.innerContent .category .categ').removeClass('scrolled');
             jQuery('.innerContent .category .categ').css('margin-top', (margin + 'px'));
         } else {
             jQuery('.innerContent .category .categ').css('margin-top', '0px');
