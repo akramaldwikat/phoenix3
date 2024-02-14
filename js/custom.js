@@ -271,9 +271,9 @@ $(document).ready(function () {
     // Check if the user has scrolled more than the distance from the top
     $(window).scroll(function () {
         if ($(window).scrollTop() > scrollDistance) {
-            $('.page-menu2 .category .categ').addClass('scrolled');
+            $('.page-menu3 .category .categ').addClass('scrolled');
         } else {
-            $('.page-menu2 .category .categ').removeClass('scrolled');
+            $('.page-menu3 .category .categ').removeClass('scrolled');
         }
     });
 
@@ -284,7 +284,7 @@ $(document).ready(function () {
         const scrollTop = $(window).scrollTop();
 
         if (scrollTop + windowHeight === contentHeight) {
-            $('.page-menu2 .category .categ').removeClass('scrolled');
+            $('.page-menu3 .category .categ').removeClass('scrolled');
         }
     });
 });
