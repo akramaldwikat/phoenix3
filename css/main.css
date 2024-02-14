@@ -108,6 +108,7 @@ body {
     margin: 0 auto !important;
 }
 
+.page-checkout .innerContent aside nav ul::-webkit-scrollbar-track,
 .sideCart .modal.in .modal-dialog .modal-body ul::-webkit-scrollbar-track,
 body::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
@@ -115,12 +116,14 @@ body::-webkit-scrollbar-track {
     background-color: #F5F5F5;
 }
 
+.page-checkout .innerContent aside nav ul::-webkit-scrollbar,
 .sideCart .modal.in .modal-dialog .modal-body ul::-webkit-scrollbar,
 body::-webkit-scrollbar {
     width: 12px;
     background-color: #F5F5F5;
 }
 
+.page-checkout .innerContent aside nav ul::-webkit-scrollbar-thumb,
 .sideCart .modal.in .modal-dialog .modal-body ul::-webkit-scrollbar-thumb,
 body::-webkit-scrollbar-thumb {
     border-radius: 10px;
@@ -3149,6 +3152,8 @@ span {
 
 .page-checkout .innerContent aside nav ul {
     width: 100%;
+    height: 350px;
+    overflow-y: scroll;
 }
 
 .page-checkout .innerContent aside nav li {
