@@ -971,6 +971,7 @@ header .headerBottom .headerBottomMobile {
 footer {
     background: #212121;
     padding: 80px 0 50px;
+    position: relative;
 }
 
 footer .footerTop {
