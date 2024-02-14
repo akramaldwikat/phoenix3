@@ -108,23 +108,17 @@ body {
     margin: 0 auto !important;
 }
 
-.page-checkout .innerContent aside nav ul::-webkit-scrollbar-track,
-.sideCart .modal.in .modal-dialog .modal-body ul::-webkit-scrollbar-track,
 body::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     background-color: #F5F5F5;
 }
 
-.page-checkout .innerContent aside nav ul::-webkit-scrollbar,
-.sideCart .modal.in .modal-dialog .modal-body ul::-webkit-scrollbar,
 body::-webkit-scrollbar {
     width: 12px;
     background-color: #F5F5F5;
 }
 
-.page-checkout .innerContent aside nav ul::-webkit-scrollbar-thumb,
-.sideCart .modal.in .modal-dialog .modal-body ul::-webkit-scrollbar-thumb,
 body::-webkit-scrollbar-thumb {
     border-radius: 10px;
     /* -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, .3); */
@@ -977,7 +971,6 @@ header .headerBottom .headerBottomMobile {
 footer {
     background: #212121;
     padding: 80px 0 50px;
-    position: relative;
 }
 
 footer .footerTop {
@@ -986,10 +979,6 @@ footer .footerTop {
 
 footer .footerTop .footerLogo {
     color: var(--white-color);
-}
-
-footer .footerTop .footerLogo a{
-color: var(--white-color);
 }
 
 footer .footerTop .footerLogo .logoo {
@@ -2063,12 +2052,6 @@ footer .footerBottom a:hover {
     padding: 15px;
 }
 
-.page-menu2 .category .categ.scrolled {
-    position: fixed;
-    top: 0%;
-    width: 20%;
-}
-
 .page-menu2 .category .card {
     border: 0;
 }
@@ -2424,12 +2407,6 @@ input[type="range"]::-webkit-slider-thumb {
     padding: 15px;
 }
 
-.page-menu3 .category .categ.scrolled {
-    position: fixed;
-    top: 0%;
-    width: 20%;
-}
-
 .page-menu3 .category .card {
     border: 0;
 }
@@ -2456,6 +2433,15 @@ input[type="range"]::-webkit-slider-thumb {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.page-menu3 .category ul .card-header {
+    padding: 0;
+}
+
+.page-menu3 .category ul .card-header .btn {
+    border: 0;
+    padding: 0;
 }
 
 .page-menu3 .category ul {
@@ -2938,8 +2924,6 @@ input[type="range"]::-webkit-slider-thumb {
 
 .sideCart .modal.in .modal-dialog .modal-body ul {
     width: 100%;
-        height: 350px;
-    overflow-y: scroll;
 }
 
 .sideCart .modal.in .modal-dialog .modal-body li {
@@ -3156,8 +3140,6 @@ span {
 
 .page-checkout .innerContent aside nav ul {
     width: 100%;
-    height: 350px;
-    overflow-y: scroll;
 }
 
 .page-checkout .innerContent aside nav li {
