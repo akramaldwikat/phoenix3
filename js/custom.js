@@ -264,27 +264,48 @@ $(document).ready(function () {
 //     }
 // });
 
-$(document).ready(function () {
-    // Set the distance from the top of the page to start adding the class
-    const scrollDistance = 300;
+// $(document).ready(function () {
+//     // Set the distance from the top of the page to start adding the class
+//     const scrollDistance = 300;
 
-    // Check if the user has scrolled more than the distance from the top
-    $(window).scroll(function () {
-        if ($(window).scrollTop() > scrollDistance) {
-            $('.page-menu3 .category .categ').addClass('scrolled');
+//     // Check if the user has scrolled more than the distance from the top
+//     $(window).scroll(function () {
+//         if ($(window).scrollTop() > scrollDistance) {
+//             $('.page-menu2 .category .categ').addClass('scrolled');
+//         } else if ($(window).scrollTop() + $(window).height() === $(document).height()) {
+//             //you are at bottom
+//             $(".page-menu2 .category .categ").removeClass("scrolled");
+//         }
+//         else {
+//             $('.page-menu2 .category .categ').removeClass('scrolled');
+//         }
+//     });
+// });
+
+jQuery(document).ready(function () {
+
+    var sectionOffset = jQuery('.innerContent').offset().top;
+
+    // left side scrolling calculation...... remove fixed class and top margin
+    var rightHeight = jQuery('.innerContent .content').outerHeight();
+    var leftHeight = jQuery('.innerContent .category .categ').outerHeight() + 50;
+    var margin = (rightHeight - leftHeight + 50) * -1;
+    var removeFixedOffset = sectionOffset + rightHeight - leftHeight;
+
+    jQuery(window).on('scroll', function () {
+
+        if (jQuery(this).scrollTop() > sectionOffset) {
+            jQuery('.innerContent .category .categ').addClass('scrolled');
         } else {
-            $('.page-menu3 .category .categ').removeClass('scrolled');
+            jQuery('.innerContent .category .categ').removeClass('scrolled');
         }
+        if (jQuery(this).scrollTop() > removeFixedOffset) {
+            jQuery('.innerContent .category .categ').removeClass('fixed');
+            jQuery('.innerContent .category .categ').css('margin-top', (margin + 'px'));
+        } else {
+            jQuery('.innerContent .category .categ').css('margin-top', '0px');
+        }
+
     });
 
-    // Check if the user has reached the last content
-    $(window).scroll(function () {
-        const contentHeight = $('.innerContent').outerHeight();
-        const windowHeight = $(window).height();
-        const scrollTop = $(window).scrollTop();
-
-        if (scrollTop + windowHeight === contentHeight) {
-            $('.page-menu3 .category .categ').removeClass('scrolled');
-        }
-    });
 });
