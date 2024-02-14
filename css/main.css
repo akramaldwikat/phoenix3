@@ -2052,6 +2052,12 @@ footer .footerBottom a:hover {
     padding: 15px;
 }
 
+.page-menu2 .category .categ.scrolled {
+    position: fixed;
+    top: 26%;
+    width: 20%;
+}
+
 .page-menu2 .category .card {
     border: 0;
 }

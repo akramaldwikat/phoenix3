@@ -255,3 +255,36 @@ $(document).ready(function () {
         return false;
     });
 });
+
+// $(window).scroll(function () {
+//     if ($(this).scrollTop() > 250) {
+//         $('.page-menu2 .category .categ').addClass('scroll');
+//     } else {
+//         $('.page-menu2 .category .categ').removeClass('scroll');
+//     }
+// });
+
+$(document).ready(function () {
+    // Set the distance from the top of the page to start adding the class
+    const scrollDistance = 300;
+
+    // Check if the user has scrolled more than the distance from the top
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > scrollDistance) {
+            $('.page-menu2 .category .categ').addClass('scrolled');
+        } else {
+            $('.page-menu2 .category .categ').removeClass('scrolled');
+        }
+    });
+
+    // Check if the user has reached the last content
+    $(window).scroll(function () {
+        const contentHeight = $('.innerContent').outerHeight();
+        const windowHeight = $(window).height();
+        const scrollTop = $(window).scrollTop();
+
+        if (scrollTop + windowHeight === contentHeight) {
+            $('.page-menu2 .category .categ').removeClass('scrolled');
+        }
+    });
+});
