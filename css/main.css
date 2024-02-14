@@ -988,6 +988,10 @@ footer .footerTop .footerLogo {
     color: var(--white-color);
 }
 
+footer .footerTop .footerLogo a{
+color: var(--white-color);
+}
+
 footer .footerTop .footerLogo .logoo {
     display: flex;
     align-items: center;
