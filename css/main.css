@@ -2407,6 +2407,12 @@ input[type="range"]::-webkit-slider-thumb {
     padding: 15px;
 }
 
+.page-menu3 .category .categ.scrolled {
+    position: fixed;
+    top: 0%;
+    width: 20%;
+}
+
 .page-menu3 .category .card {
     border: 0;
 }
