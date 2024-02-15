@@ -2926,6 +2926,10 @@ input[type="range"]::-webkit-slider-thumb {
     margin: 0 0 0 auto;
 }
 
+.sideCart .modal.in .modal-dialog .modal-content {
+        height: 100vh;
+}
+
 .sideCart .modal.in .modal-dialog .modal-header {
     justify-content: space-between;
     background: #F3F4F4;
