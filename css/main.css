@@ -2950,6 +2950,8 @@ input[type="range"]::-webkit-slider-thumb {
 
 .sideCart .modal.in .modal-dialog .modal-body ul {
     width: 100%;
+    height: 350px;
+    overflow-y: scroll;
 }
 
 .sideCart .modal.in .modal-dialog .modal-body li {
