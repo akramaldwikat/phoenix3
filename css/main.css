@@ -108,23 +108,31 @@ body {
     margin: 0 auto !important;
 }
 
+.page-menu3 .category ul::-webkit-scrollbar-track,
+.page-checkout .innerContent aside nav ul::-webkit-scrollbar-track,
+.sideCart .modal.in .modal-dialog .modal-body ul::-webkit-scrollbar-track,
 body::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     background-color: #F5F5F5;
 }
 
+.page-menu3 .category ul::-webkit-scrollbar,
+.page-checkout .innerContent aside nav ul::-webkit-scrollbar,
+.sideCart .modal.in .modal-dialog .modal-body ul::-webkit-scrollbar,
 body::-webkit-scrollbar {
     width: 12px;
     background-color: #F5F5F5;
 }
 
+.page-menu3 .category ul::-webkit-scrollbar-thumb,
+.page-checkout .innerContent aside nav ul::-webkit-scrollbar-thumb,
+.sideCart .modal.in .modal-dialog .modal-body ul::-webkit-scrollbar-thumb,
 body::-webkit-scrollbar-thumb {
     border-radius: 10px;
     /* -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, .3); */
     background: linear-gradient(rgb(195, 49, 48) 15%, rgb(241 118 10 / 100%) 40%, rgb(195, 49, 48) 90%);
 }
-
 .container {
     max-width: 100%;
     width: 87% !important;
@@ -2452,6 +2460,8 @@ input[type="range"]::-webkit-slider-thumb {
 
 .page-menu3 .category ul {
     width: 100%;
+    height: 275px;
+    overflow-y: scroll;
 }
 
 .page-menu3 .category ul li {
