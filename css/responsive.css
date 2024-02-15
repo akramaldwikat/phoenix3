@@ -386,6 +386,12 @@
         gap: 10px;
     }
 
+    .page-menu3 .category .categ.scrolled {
+    position: relative;
+    top: unset;
+    width: auto;
+    }
+
 }
 
 /************************************767px*********************************************/
