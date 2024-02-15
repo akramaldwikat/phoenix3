@@ -2484,6 +2484,7 @@ input[type="range"]::-webkit-slider-thumb {
     font-weight: 600;
 }
 
+.page-menu3 .category ul li a:hover,
 .page-menu3 .category ul li a.active {
     color: var(--secondary-color);
 }
