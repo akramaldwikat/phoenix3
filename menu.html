@@ -94,7 +94,7 @@
                             <li><a href="#"><img src="./images/yt.png" alt="youtubeIcone"></a></li>
                         </ul>
                         <ul>
-                            <li class="cards">
+                            <!-- <li class="cards">
                                 <a href="./checkout.html">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 27 27" fill="none">
                                         <path d="M4.36768 18.4512C3.42229 14.7271 2.9496 12.8661 3.94236 11.6139C4.93403 10.3617 6.88431 10.3617 10.7816 10.3617H15.8831C19.7815 10.3617 21.7296 10.3617 22.7223 11.6139C23.7151 12.865 23.2424 14.7282 22.297 18.4512C21.6954 20.8199 21.3957 22.0038 20.4988 22.6939C19.6019 23.383 18.3623 23.383 15.8831 23.383H10.7816C8.30239 23.383 7.06281 23.383 6.1659 22.6939C5.26899 22.0038 4.96819 20.8199 4.36768 18.4512Z" stroke="white" stroke-width="2.5"/>
@@ -102,6 +102,15 @@
                                         <path d="M10.0273 4.93618C10.0273 4.64839 10.1434 4.37239 10.3501 4.16889C10.5567 3.9654 10.837 3.85107 11.1292 3.85107H15.5366C15.8288 3.85107 16.1091 3.9654 16.3157 4.16889C16.5224 4.37239 16.6385 4.64839 16.6385 4.93618C16.6385 5.22397 16.5224 5.49997 16.3157 5.70347C16.1091 5.90696 15.8288 6.02129 15.5366 6.02129H11.1292C10.837 6.02129 10.5567 5.90696 10.3501 5.70347C10.1434 5.49997 10.0273 5.22397 10.0273 4.93618Z" stroke="white" stroke-width="2.5"/>
                                     </svg>
                                 </a>
+                            </li> -->
+                            <li class="myOrder">
+                                <button type="button" class="btn" data-toggle="modal" data-target="#sideCart" data-whatever="@mdo">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 27 27" fill="none">
+                                        <path d="M4.36768 18.4512C3.42229 14.7271 2.9496 12.8661 3.94236 11.6139C4.93403 10.3617 6.88431 10.3617 10.7816 10.3617H15.8831C19.7815 10.3617 21.7296 10.3617 22.7223 11.6139C23.7151 12.865 23.2424 14.7282 22.297 18.4512C21.6954 20.8199 21.3957 22.0038 20.4988 22.6939C19.6019 23.383 18.3623 23.383 15.8831 23.383H10.7816C8.30239 23.383 7.06281 23.383 6.1659 22.6939C5.26899 22.0038 4.96819 20.8199 4.36768 18.4512Z" stroke="white" stroke-width="2.5"/>
+                                        <path d="M21.5981 10.9042L20.8158 8.07754C20.5139 6.98701 20.3629 6.44228 20.0533 6.03103C19.7446 5.62245 19.3253 5.3077 18.8435 5.1228C18.3586 4.93616 17.7857 4.93616 16.6398 4.93616M5.07031 10.9042L5.85263 8.07754C6.15453 6.98701 6.30549 6.44228 6.61511 6.03103C6.92382 5.62245 7.34309 5.3077 7.82494 5.1228C8.30976 4.93616 8.88272 4.93616 10.0286 4.93616" stroke="white" stroke-width="2.5"/>
+                                        <path d="M10.0273 4.93618C10.0273 4.64839 10.1434 4.37239 10.3501 4.16889C10.5567 3.9654 10.837 3.85107 11.1292 3.85107H15.5366C15.8288 3.85107 16.1091 3.9654 16.3157 4.16889C16.5224 4.37239 16.6385 4.64839 16.6385 4.93618C16.6385 5.22397 16.5224 5.49997 16.3157 5.70347C16.1091 5.90696 15.8288 6.02129 15.5366 6.02129H11.1292C10.837 6.02129 10.5567 5.90696 10.3501 5.70347C10.1434 5.49997 10.0273 5.22397 10.0273 4.93618Z" stroke="white" stroke-width="2.5"/>
+                                    </svg>
+                                </button>
                             </li>
                             <li class="favItem">
                                 <a href="#">
@@ -155,6 +164,7 @@
                                     <li><a href="./aboutUs.html">About</a></li>
                                     <li><a href="./menu.html">Menu</a></li>
                                     <li><a href="#">Offers</a></li>
+                                    <li><a href="./checkout.html">checkout</a></li>
                                     <li><a href="./contactUs.html">Contact</a></li>
                                 </ul>
                                 <div class="currencys col-md-6 col-sm-6 col-xs-6 custom-select">
@@ -300,8 +310,8 @@
 
     <!-- Inner Content -->
 
-    <div class="innerContent container">
-        <nav class="category col-md-3 col-sm-6 col-xs-12">
+    <div class="innerContent container no-padding">
+        <nav class="category col-md-3 col-sm-12 col-xs-12">
             <div class="categ">
                 <div id="accordion">
                     <div class="card">
@@ -399,7 +409,7 @@
             </div>
         </nav>
 
-        <div class="content col-md-9 col-sm-6 col-xs-12">
+        <div class="content col-md-9 col-sm-12 col-xs-12">
             <div class="topContent">
                 <div class="result">Showing 1-12 of 27 Results</div>
                 <div class="veiws">
@@ -455,17 +465,16 @@
                                     <div class="modal cat-popup fade" id="burgers0" tabindex="-1" role="dialog" aria-labelledby="burgers0Label" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
                                             <div class="modal-content">
-                                            <div class="modal-header">
-                                                    <img src="./images/burger-cart.png" alt="Burger">
-                                                    <h5 class="modal-title" id="burgers0Label">Specify your meal</h5>
-                                                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"> -->
-                                                    <!-- <span aria-hidden="true">&times;</span> -->
-                                                    </button>
-                                                </div>
                                                 <div class="modal-body">
                                                     <div class="details">
-                                                        <div class="title">Specify your meal</div>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                        <img src="./images/burgerIcon2.png" alt="burgers">
+                                                        <fieldset>
+                                                            <div class="title">Specify your meal</div>
                                                         <div class="body">Beef,Cheese , Potato , Fries , Onion</div>
+                                                        </fieldset>
                                                     </div>
                                                     <form>
                                                         <fieldset>
@@ -542,17 +551,16 @@
                                     <div class="modal cat-popup fade" id="burgers1" tabindex="-1" role="dialog" aria-labelledby="burgers1Label" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
                                             <div class="modal-content">
-                                            <div class="modal-header">
-                                                    <img src="./images/burger-cart.png" alt="Burger">
-                                                    <h5 class="modal-title" id="burgers1Label">Specify your meal</h5>
-                                                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"> -->
-                                                    <!-- <span aria-hidden="true">&times;</span> -->
-                                                    </button>
-                                                </div>
                                                 <div class="modal-body">
                                                     <div class="details">
-                                                        <div class="title">Specify your meal</div>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                        <img src="./images/burgerIcon2.png" alt="burgers">
+                                                        <fieldset>
+                                                            <div class="title">Specify your meal</div>
                                                         <div class="body">Beef,Cheese , Potato , Fries , Onion</div>
+                                                        </fieldset>
                                                     </div>
                                                     <form>
                                                         <fieldset>
@@ -629,17 +637,16 @@
                                     <div class="modal cat-popup fade" id="burgers2" tabindex="-1" role="dialog" aria-labelledby="burgers2Label" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
                                             <div class="modal-content">
-                                            <div class="modal-header">
-                                                    <img src="./images/burger-cart.png" alt="Burger">
-                                                    <h5 class="modal-title" id="burgers2Label">Specify your meal</h5>
-                                                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"> -->
-                                                    <!-- <span aria-hidden="true">&times;</span> -->
-                                                    </button>
-                                                </div>
                                                 <div class="modal-body">
                                                     <div class="details">
-                                                        <div class="title">Specify your meal</div>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                        <img src="./images/burgerIcon2.png" alt="burgers">
+                                                        <fieldset>
+                                                            <div class="title">Specify your meal</div>
                                                         <div class="body">Beef,Cheese , Potato , Fries , Onion</div>
+                                                        </fieldset>
                                                     </div>
                                                     <form>
                                                         <fieldset>
@@ -716,17 +723,16 @@
                                     <div class="modal cat-popup fade" id="burgers3" tabindex="-1" role="dialog" aria-labelledby="burgers3Label" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
                                             <div class="modal-content">
-                                            <div class="modal-header">
-                                                    <img src="./images/burger-cart.png" alt="Burger">
-                                                    <h5 class="modal-title" id="burgers3Label">Specify your meal</h5>
-                                                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"> -->
-                                                    <!-- <span aria-hidden="true">&times;</span> -->
-                                                    </button>
-                                                </div>
                                                 <div class="modal-body">
                                                     <div class="details">
-                                                        <div class="title">Specify your meal</div>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                        <img src="./images/burgerIcon2.png" alt="burgers">
+                                                        <fieldset>
+                                                            <div class="title">Specify your meal</div>
                                                         <div class="body">Beef,Cheese , Potato , Fries , Onion</div>
+                                                        </fieldset>
                                                     </div>
                                                     <form>
                                                         <fieldset>
@@ -819,17 +825,16 @@
                                     <div class="modal cat-popup fade" id="pasta0" tabindex="-1" role="dialog" aria-labelledby="pasta0Label" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
                                             <div class="modal-content">
-                                            <div class="modal-header">
-                                                    <img src="./images/burger-cart.png" alt="Burger">
-                                                    <h5 class="modal-title" id="pasta0Label">Specify your meal</h5>
-                                                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"> -->
-                                                    <!-- <span aria-hidden="true">&times;</span> -->
-                                                    </button>
-                                                </div>
                                                 <div class="modal-body">
                                                     <div class="details">
-                                                        <div class="title">Specify your meal</div>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                        <img src="./images/pasta.png" alt="pasta">
+                                                        <fieldset>
+                                                            <div class="title">Specify your meal</div>
                                                         <div class="body">Beef,Cheese , Potato , Fries , Onion</div>
+                                                        </fieldset>
                                                     </div>
                                                     <form>
                                                         <fieldset>
@@ -906,17 +911,16 @@
                                     <div class="modal cat-popup fade" id="pasta1" tabindex="-1" role="dialog" aria-labelledby="pasta1Label" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
                                             <div class="modal-content">
-                                            <div class="modal-header">
-                                                    <img src="./images/burger-cart.png" alt="Burger">
-                                                    <h5 class="modal-title" id="pasta1Label">Specify your meal</h5>
-                                                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"> -->
-                                                    <!-- <span aria-hidden="true">&times;</span> -->
-                                                    </button>
-                                                </div>
                                                 <div class="modal-body">
                                                     <div class="details">
-                                                        <div class="title">Specify your meal</div>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                        <img src="./images/pasta.png" alt="pasta">
+                                                        <fieldset>
+                                                            <div class="title">Specify your meal</div>
                                                         <div class="body">Beef,Cheese , Potato , Fries , Onion</div>
+                                                        </fieldset>
                                                     </div>
                                                     <form>
                                                         <fieldset>
@@ -991,17 +995,16 @@
                                     <div class="modal cat-popup fade" id="pasta2" tabindex="-1" role="dialog" aria-labelledby="pasta2Label" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
                                             <div class="modal-content">
-                                            <div class="modal-header">
-                                                    <img src="./images/burger-cart.png" alt="Burger">
-                                                    <h5 class="modal-title" id="pasta2Label">Specify your meal</h5>
-                                                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"> -->
-                                                    <!-- <span aria-hidden="true">&times;</span> -->
-                                                    </button>
-                                                </div>
                                                 <div class="modal-body">
                                                     <div class="details">
-                                                        <div class="title">Specify your meal</div>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                        <img src="./images/pasta.png" alt="pasta">
+                                                        <fieldset>
+                                                            <div class="title">Specify your meal</div>
                                                         <div class="body">Beef,Cheese , Potato , Fries , Onion</div>
+                                                        </fieldset>
                                                     </div>
                                                     <form>
                                                         <fieldset>
@@ -1078,17 +1081,16 @@
                                     <div class="modal cat-popup fade" id="pasta3" tabindex="-1" role="dialog" aria-labelledby="pasta3Label" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
                                             <div class="modal-content">
-                                            <div class="modal-header">
-                                                    <img src="./images/burger-cart.png" alt="Burger">
-                                                    <h5 class="modal-title" id="pasta3Label">Specify your meal</h5>
-                                                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"> -->
-                                                    <!-- <span aria-hidden="true">&times;</span> -->
-                                                    </button>
-                                                </div>
                                                 <div class="modal-body">
                                                     <div class="details">
-                                                        <div class="title">Specify your meal</div>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                        <img src="./images/pasta.png" alt="pasta">
+                                                        <fieldset>
+                                                            <div class="title">Specify your meal</div>
                                                         <div class="body">Beef,Cheese , Potato , Fries , Onion</div>
+                                                        </fieldset>
                                                     </div>
                                                     <form>
                                                         <fieldset>
@@ -1181,17 +1183,16 @@
                                     <div class="modal cat-popup fade" id="pizza0" tabindex="-1" role="dialog" aria-labelledby="pizza0Label" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
                                             <div class="modal-content">
-                                            <div class="modal-header">
-                                                    <img src="./images/burger-cart.png" alt="Burger">
-                                                    <h5 class="modal-title" id="pizza0Label">Specify your meal</h5>
-                                                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"> -->
-                                                    <!-- <span aria-hidden="true">&times;</span> -->
-                                                    </button>
-                                                </div>
                                                 <div class="modal-body">
                                                     <div class="details">
-                                                        <div class="title">Specify your meal</div>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                        <img src="./images/Pizza.png" alt="pizza">
+                                                        <fieldset>
+                                                            <div class="title">Specify your meal</div>
                                                         <div class="body">Beef,Cheese , Potato , Fries , Onion</div>
+                                                        </fieldset>
                                                     </div>
                                                     <form>
                                                         <fieldset>
@@ -1268,17 +1269,16 @@
                                     <div class="modal cat-popup fade" id="pizza1" tabindex="-1" role="dialog" aria-labelledby="pizza1Label" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
                                             <div class="modal-content">
-                                            <div class="modal-header">
-                                                    <img src="./images/burger-cart.png" alt="Burger">
-                                                    <h5 class="modal-title" id="pizza1Label">Specify your meal</h5>
-                                                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"> -->
-                                                    <!-- <span aria-hidden="true">&times;</span> -->
-                                                    </button>
-                                                </div>
                                                 <div class="modal-body">
                                                     <div class="details">
-                                                        <div class="title">Specify your meal</div>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                        <img src="./images/Pizza.png" alt="pizza">
+                                                        <fieldset>
+                                                            <div class="title">Specify your meal</div>
                                                         <div class="body">Beef,Cheese , Potato , Fries , Onion</div>
+                                                        </fieldset>
                                                     </div>
                                                     <form>
                                                         <fieldset>
@@ -1355,17 +1355,16 @@
                                     <div class="modal cat-popup fade" id="pizza2" tabindex="-1" role="dialog" aria-labelledby="pizza2Label" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
                                             <div class="modal-content">
-                                            <div class="modal-header">
-                                                    <img src="./images/burger-cart.png" alt="Burger">
-                                                    <h5 class="modal-title" id="pizza2Label">Specify your meal</h5>
-                                                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"> -->
-                                                    <!-- <span aria-hidden="true">&times;</span> -->
-                                                    </button>
-                                                </div>
                                                 <div class="modal-body">
                                                     <div class="details">
-                                                        <div class="title">Specify your meal</div>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                        <img src="./images/Pizza.png" alt="pizza">
+                                                        <fieldset>
+                                                            <div class="title">Specify your meal</div>
                                                         <div class="body">Beef,Cheese , Potato , Fries , Onion</div>
+                                                        </fieldset>
                                                     </div>
                                                     <form>
                                                         <fieldset>
@@ -1442,17 +1441,16 @@
                                     <div class="modal cat-popup fade" id="pizza3" tabindex="-1" role="dialog" aria-labelledby="pizza3Label" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
                                             <div class="modal-content">
-                                            <div class="modal-header">
-                                                    <img src="./images/burger-cart.png" alt="Burger">
-                                                    <h5 class="modal-title" id="pizza3Label">Specify your meal</h5>
-                                                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"> -->
-                                                    <!-- <span aria-hidden="true">&times;</span> -->
-                                                    </button>
-                                                </div>
                                                 <div class="modal-body">
                                                     <div class="details">
-                                                        <div class="title">Specify your meal</div>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                        <img src="./images/Pizza.png" alt="pizza">
+                                                        <fieldset>
+                                                            <div class="title">Specify your meal</div>
                                                         <div class="body">Beef,Cheese , Potato , Fries , Onion</div>
+                                                        </fieldset>
                                                     </div>
                                                     <form>
                                                         <fieldset>
