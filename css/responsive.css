@@ -63,8 +63,33 @@
     --font-ex-light: "PoppinsExtraLight";
 }
 
+/************************************ 1280px *********************************************/
+@media (max-width: 1280px) {
+    header .headerBottom .headerBottomRight .order a {
+        padding: 12px;
+    }
+}
+
+/************************************ 1229px *********************************************/
+@media (max-width: 1229px) {
+    header .headerBottom .headerBottomRight .order a {
+        padding: 8px;
+    }
+}
+
+/************************************ 1208px *********************************************/
+@media (max-width: 1208px) {
+    header .headerBottom .headerBottomRight .order a {
+        font-size: 14px;
+    }
+}
+
 /************************************1024px*********************************************/
-@media (max-width: 1024px) {
+@media (max-width: 1195px) {
+
+    .headerBottomLeft {
+        width: 85%;
+    }
 
     header .headerBottom .headerBottomRight,
     header .headerTop .container .headerTopLeft,
