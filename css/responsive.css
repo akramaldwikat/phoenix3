@@ -588,5 +588,8 @@
             flex-direction: column;
     }
 
+    .sideCart .modal.in .modal-dialog .modal-content {
+    height: 92vh;
+    }
 
 }
