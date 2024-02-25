@@ -44,6 +44,46 @@
 
 /* ========================= font ============================= */
 
+/* ========================= font arabic ============================= */
+
+@font-face {
+    font-family: "DinNextItW23Regular";
+    src: url("../fonts/DinNextItW23Regular.ttf") format("truetype"),
+        url("../fonts/DinNextItW23Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DinNextRegular";
+    src: url("../fonts/DINNextLTArabicRegular.ttf") format("truetype"),
+        url("../fonts/DINNextLTArabicRegular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DinNextMedium";
+    src: url("../fonts/DINNextLTArabicMedium.ttf") format("truetype"),
+        url("../fonts/DINNextLTArabicMedium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DinNextBold";
+    src: url("../fonts/DINNextLTArabicBold.ttf") format("truetype"),
+        url("../fonts/DINNextLTArabicBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DinNextLight";
+    src: url("../fonts/DinNextArabicLight.ttf") format("truetype"),
+        url("../fonts/DinNextArabicLight.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DinNextUltraLight";
+    src: url("../fonts/DinNextUltraLight.ttf") format("truetype"),
+        url("../fonts/DinNextUltraLight.ttf") format("truetype");
+}
+
+/* ========================= font arabic ============================= */
+
 /* ========================= global ============================= */
 
 :root {
@@ -61,6 +101,14 @@
     --font-ex-bold: "PoppinsExtraBold";
     --font-light: "PoppinsLight";
     --font-ex-light: "PoppinsExtraLight";
+
+    --font-regular-ar: "DinNextRegular";
+    --font-medium-ar: "DinNextMedium";
+    --font-bold-ar: "DinNextBold";
+    --font-sm-bold-ar: "PoppinsSemiBold";
+    --font-ex-bold-ar: "PoppinsExtraBold";
+    --font-light-ar: "DinNextLight";
+    --font-ex-light-ar: "DinNextUltraLight";
 }
 
 html {
@@ -108,6 +156,13 @@ body {
     margin: 0 auto !important;
 }
 
+[dir="rtl"] body {
+    overflow-x: hidden;
+    font-family: var(--font-regular-ar) !important;
+    /* max-width: 1400px; */
+    margin: 0 auto !important;
+}
+
 .page-menu3 .category ul::-webkit-scrollbar-track,
 .page-checkout .innerContent aside nav ul::-webkit-scrollbar-track,
 .sideCart .modal.in .modal-dialog .modal-body ul::-webkit-scrollbar-track,
@@ -133,6 +188,7 @@ body::-webkit-scrollbar-thumb {
     /* -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, .3); */
     background: linear-gradient(rgb(195, 49, 48) 15%, rgb(241 118 10 / 100%) 40%, rgb(195, 49, 48) 90%);
 }
+
 .container {
     max-width: 100%;
     width: 94% !important;
@@ -997,6 +1053,7 @@ footer .footerTop .footerLogo .logoo {
     font-style: normal;
     font-weight: 700;
     margin-bottom: 12px;
+    color: var(--white-color);
 }
 
 footer .footerTop .footerLogo .body {
@@ -2465,7 +2522,7 @@ input[type="range"]::-webkit-slider-thumb {
     direction: rtl;
 }
 
-.page-menu3 .category ul ul{
+.page-menu3 .category ul ul {
     width: 100%;
     height: auto;
     overflow-y: unset;
@@ -2477,7 +2534,7 @@ input[type="range"]::-webkit-slider-thumb {
     padding-bottom: 10px;
     margin-bottom: 10px;
     border-bottom: 1.5px solid #CECECE;
-        direction: ltr;
+    direction: ltr;
     text-align: start;
 }
 
@@ -2941,7 +2998,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .sideCart .modal.in .modal-dialog .modal-content {
-        height: 100vh;
+    height: 100vh;
 }
 
 .sideCart .modal.in .modal-dialog .modal-header {
@@ -3045,15 +3102,15 @@ span {
     cursor: pointer;
 }
 
-.cat-popup .modal-footer .number{
-        display: flex;
+.cat-popup .modal-footer .number {
+    display: flex;
     align-items: center;
 }
-    
+
 
 .minus,
 .plus {
-        width: 30px;
+    width: 30px;
     height: 30px;
     background: #c3c3c3;
     border-radius: 50px;
@@ -3066,7 +3123,7 @@ span {
 }
 
 .modal-footer .number input {
-        height: 28px;
+    height: 28px;
     width: 35px;
     text-align: center;
     font-size: 20px;
@@ -3796,3 +3853,89 @@ span {
 }
 
 /* ========= Contact Us page ========== */
+
+/* ============= arabic style ============= */
+
+[dir="rtl"] .col-md-1,
+[dir="rtl"] .col-md-10,
+[dir="rtl"] .col-md-11,
+[dir="rtl"] .col-md-12,
+[dir="rtl"] .col-md-2,
+[dir="rtl"] .col-md-3,
+[dir="rtl"] .col-md-4,
+[dir="rtl"] .col-md-5,
+[dir="rtl"] .col-md-6,
+[dir="rtl"] .col-md-7,
+[dir="rtl"] .col-md-8,
+[dir="rtl"] .col-md-9 {
+    float: right;
+}
+
+[dir="rtl"] .slider .slick-slider .slick-list,
+[dir="rtl"] .slider .slick-slider .slick-track {
+    direction: ltr;
+}
+
+[dir="rtl"] .sideCart .modal.in .modal-dialog {
+    margin: 0 auto 0 0;
+}
+
+[dir="rtl"] .slider li.slide .content {
+    margin: 0 0 0 auto;
+    text-align: end;
+}
+
+[dir="rtl"] .slider li ul {
+    justify-content: flex-end;
+}
+
+[dir="rtl"] .aboutUs .food h2 {
+    font-family: var(--font-bold-ar);
+    left: 35%;
+}
+
+[dir="rtl"] .aboutUs .image {
+    text-align: end;
+}
+
+[dir="rtl"] .whyUs .group {
+    padding-left: 0;
+    padding-right: 48px;
+}
+
+[dir="rtl"] .whyUs .image {
+    float: left;
+}
+
+[dir="rtl"] .aboutUs .about .title,
+[dir="rtl"] .whyUs .group .title {
+    font-family: var(--font-bold-ar);
+}
+
+[dir="rtl"] .aboutUs .about .body,
+[dir="rtl"] .whyUs .group .body {
+    font-family: var(--font-light-ar);
+}
+
+[dir="rtl"] .news .new .card-image .card-date {
+    right: 3%;
+    left: unset;
+}
+
+[dir="rtl"] .ourMenu .slick-prev,
+[dir="rtl"] .news .slick-prev {
+    left: -2%;
+}
+
+[dir="rtl"] .ourMenu .slick-next,
+[dir="rtl"] .news .slick-next {
+    right: -2%;
+}
+
+[dir="rtl"] .page-menu3 .category ul {
+    direction: ltr;
+}
+
+[dir="rtl"] .page-menu3 .category ul li {
+    direction: rtl;
+}

@@ -14,284 +14,284 @@
     <link rel="stylesheet" href="./css/layout.css">
 </head>
 <body class="page-accountInfo">
-        <!-- Header -->
-        <header class="container-fluid no-padding no-margin">
-            <div class="headerTop">
-                <div class="container no-padding">
-                    <div class="row">
-                        <div class="headerTopLeft col-md-6 col-sm-12 col-xs-12">
-                            <ul class="social">
-                                <li><a href="#"><img src="./images/fb.png" alt="facebookIcon"></a></li>
-                                <li><a href="#"><img src="./images/insta.png" alt="instagramIcon"></a></li>
-                                <li><a href="#"><img src="./images/tiktok.png" alt="tiktokIcon"></a></li>
-                                <li><a href="#"><img src="./images/yt.png" alt="youtubeIcone"></a></li>
-                            </ul>
-                        </div>
-                        <div class="headerTopRight col-md-6 col-sm-12 col-xs-12">
-                            <div class="currencys  custom-select">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                    <g clip-path="url(#clip0_1_262)">
-                                        <path d="M0.375 9.75H24V15H0.375V9.75Z" fill="#E6E7E8"/>
-                                        <path d="M12.156 12.375L1.68225 4.6875C0.567375 5.40262 0 6.72825 0 8.25V16.5C0 17.9561 0.519375 19.2334 1.54125 19.9672L12.1702 12.3851L12.156 12.375Z" fill="#EC1C24"/>
-                                        <path d="M8.5065 15L1.54688 19.9642C2.1225 20.3794 2.85488 20.625 3.7515 20.625H20.2515C22.7366 20.625 24.0015 18.7781 24.0015 16.5V15H8.5065Z" fill="#137A08"/>
-                                        <path d="M20.2513 4.125H3.75134C2.92597 4.125 2.24009 4.33237 1.68359 4.6875L8.58097 9.75H24.001V8.25C24.001 5.97188 22.7365 4.125 20.2513 4.125Z" fill="#25333A"/>
-                                        <path d="M3.70288 11.07L4.22825 9.46503L4.742 11.07L6.3035 10.4689L5.38063 11.8669L6.83188 12.7245L5.15188 12.87L5.38063 14.5392L4.22825 13.3204L3.06913 14.5392L3.293 12.87L1.625 12.7287L3.06463 11.8718L2.13687 10.4689L3.70288 11.07Z" fill="white"/>
-                                    </g>
-                                    <defs>
-                                        <clipPath clipPath id="clip0_1_262">
-                                            <rect width="24" height="24" fill="white"/>
-                                        </clipPath>
-                                    </defs>
-                                </svg>
-                                <!-- <select id="currencys" class="form-select form-select-lg">
-                                    <option class="currency opt" id="jod">JOD</option>
-                                    <option class="currency opt" id="usd">USD</option>
-                                </select> -->
-                                <div class="dropdown">
-                                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        currency
-                                    </button>
-                                    <div class="dropdown-menu"  id="currencys" aria-labelledby="dropdownMenuButton">
-                                        <a class="dropdown-item currency" href="#">JOD</a>
-                                        <a class="dropdown-item currency" href="#">USD</a>
-                                    </div>
+    <!-- Header -->
+    <header class="container-fluid no-padding no-margin">
+        <div class="headerTop">
+            <div class="container no-padding">
+                <div class="row">
+                    <div class="headerTopLeft col-md-6 col-sm-12 col-xs-12">
+                        <ul class="social">
+                            <li><a href="#"><img src="./images/fb.png" alt="facebookIcon"></a></li>
+                            <li><a href="#"><img src="./images/insta.png" alt="instagramIcon"></a></li>
+                            <li><a href="#"><img src="./images/tiktok.png" alt="tiktokIcon"></a></li>
+                            <li><a href="#"><img src="./images/yt.png" alt="youtubeIcone"></a></li>
+                        </ul>
+                    </div>
+                    <div class="headerTopRight col-md-6 col-sm-12 col-xs-12">
+                        <div class="currencys  custom-select">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <g clip-path="url(#clip0_1_262)">
+                                    <path d="M0.375 9.75H24V15H0.375V9.75Z" fill="#E6E7E8"/>
+                                    <path d="M12.156 12.375L1.68225 4.6875C0.567375 5.40262 0 6.72825 0 8.25V16.5C0 17.9561 0.519375 19.2334 1.54125 19.9672L12.1702 12.3851L12.156 12.375Z" fill="#EC1C24"/>
+                                    <path d="M8.5065 15L1.54688 19.9642C2.1225 20.3794 2.85488 20.625 3.7515 20.625H20.2515C22.7366 20.625 24.0015 18.7781 24.0015 16.5V15H8.5065Z" fill="#137A08"/>
+                                    <path d="M20.2513 4.125H3.75134C2.92597 4.125 2.24009 4.33237 1.68359 4.6875L8.58097 9.75H24.001V8.25C24.001 5.97188 22.7365 4.125 20.2513 4.125Z" fill="#25333A"/>
+                                    <path d="M3.70288 11.07L4.22825 9.46503L4.742 11.07L6.3035 10.4689L5.38063 11.8669L6.83188 12.7245L5.15188 12.87L5.38063 14.5392L4.22825 13.3204L3.06913 14.5392L3.293 12.87L1.625 12.7287L3.06463 11.8718L2.13687 10.4689L3.70288 11.07Z" fill="white"/>
+                                </g>
+                                <defs>
+                                    <clipPath clipPath id="clip0_1_262">
+                                        <rect width="24" height="24" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <!-- <select id="currencys" class="form-select form-select-lg">
+                                <option class="currency opt" id="jod">JOD</option>
+                                <option class="currency opt" id="usd">USD</option>
+                            </select> -->
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    currency
+                                </button>
+                                <div class="dropdown-menu"  id="currencys" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item currency" href="#">JOD</a>
+                                    <a class="dropdown-item currency" href="#">USD</a>
                                 </div>
                             </div>
+                        </div>
+    
+                        <div class="lang custom-select">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                                <g clip-path="url(#clip0_1_254)">
+                                    <path d="M16.2176 11C16.215 10.1783 16.1269 9.35907 15.9548 8.55557H18.1548C18.0415 8.22042 17.9047 7.89368 17.7453 7.5778H15.6981C15.3133 6.29205 14.7163 5.07963 13.932 3.99057C13.4309 3.77986 12.9084 3.62414 12.3737 3.52613C13.4482 4.68067 14.2593 6.05472 14.7509 7.55335H11.457V3.42224H10.5403V7.55946H7.24644C7.73904 6.05811 8.55228 4.68186 9.62977 3.52613C9.09736 3.6225 8.57692 3.77617 8.07755 3.98446C7.29011 5.06895 6.68908 6.2772 6.29922 7.55946H4.23977C4.07757 7.88111 3.93869 8.21401 3.82422 8.55557H6.04255C5.87039 9.35907 5.78233 10.1783 5.77977 11C5.78146 11.8988 5.88396 12.7946 6.08533 13.6706H3.922C4.04842 14.0131 4.19956 14.346 4.37422 14.6667H6.34811C6.72224 15.8374 7.27688 16.9426 7.992 17.9422C8.50409 18.1619 9.03905 18.3238 9.587 18.425C8.58961 17.3371 7.82257 16.0587 7.332 14.6667H10.5464V18.5411H11.4631V14.6667H14.6653C14.1731 16.0593 13.4039 17.3377 12.4042 18.425C12.9547 18.3203 13.4918 18.1543 14.0053 17.93C14.7193 16.9341 15.2739 15.8332 15.6492 14.6667H17.6048C17.7786 14.352 17.9298 14.0252 18.057 13.6889H15.8876C16.0985 12.8079 16.2092 11.9059 16.2176 11ZM10.5403 13.6706H7.03255C6.60231 11.9887 6.58345 10.2279 6.97755 8.53724H10.5403V13.6706ZM14.9648 13.6706H11.457V8.55557H15.0198C15.1953 9.35841 15.2814 10.1782 15.2764 11C15.2814 11.8996 15.1768 12.7964 14.9648 13.6706Z" fill="white"/>
+                                    <path d="M11.0004 1.22223C9.06658 1.22223 7.17614 1.79569 5.5682 2.87008C3.96025 3.94448 2.70701 5.47156 1.96695 7.25821C1.22689 9.04487 1.03326 11.0109 1.41054 12.9076C1.78782 14.8043 2.71906 16.5465 4.08651 17.9139C5.45395 19.2814 7.19619 20.2126 9.09289 20.5899C10.9896 20.9672 12.9556 20.7736 14.7422 20.0335C16.5289 19.2934 18.056 18.0402 19.1304 16.4322C20.2048 14.8243 20.7782 12.9339 20.7782 11C20.7782 8.40678 19.7481 5.91976 17.9144 4.08607C16.0807 2.25238 13.5937 1.22223 11.0004 1.22223ZM11.0004 19.5556C9.30831 19.5556 7.65418 19.0538 6.24723 18.1137C4.84027 17.1736 3.74369 15.8374 3.09614 14.2741C2.44859 12.7108 2.27916 10.9905 2.60928 9.3309C2.93939 7.67129 3.75423 6.14683 4.95075 4.95032C6.14726 3.7538 7.67172 2.93896 9.33133 2.60884C10.9909 2.27873 12.7112 2.44815 14.2745 3.0957C15.8378 3.74325 17.174 4.83984 18.1141 6.24679C19.0542 7.65375 19.556 9.30788 19.556 11C19.556 13.2691 18.6546 15.4452 17.0501 17.0497C15.4457 18.6542 13.2695 19.5556 11.0004 19.5556Z" fill="white"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_1_254">
+                                        <rect width="22" height="22" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <!-- <select id="lang">
+                                <option id="en" class="opt">English</option>
+                                <option id="en" class="opt">Arabic</option>
+                            </select> -->
+
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    language
+                                </button>
+                                <div class="dropdown-menu" id="lang" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" id="en" href="./accountInfo.html">English</a>
+                                    <a class="dropdown-item" id="ar" href="./accountInfoAr.html">Arabic</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="headerTopMobile col-md-12 col-sm-12 col-xs-12">
+                        <ul class="social">
+                            <li><a href="#"><img src="./images/fb.png" alt="facebookIcon"></a></li>
+                            <li><a href="#"><img src="./images/insta.png" alt="instagramIcon"></a></li>
+                            <li><a href="#"><img src="./images/tiktok.png" alt="tiktokIcon"></a></li>
+                            <li><a href="#"><img src="./images/yt.png" alt="youtubeIcone"></a></li>
+                        </ul>
+                        <ul>
+                            <!-- <li class="cards">
+                                <a href="./checkout.html">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 27 27" fill="none">
+                                        <path d="M4.36768 18.4512C3.42229 14.7271 2.9496 12.8661 3.94236 11.6139C4.93403 10.3617 6.88431 10.3617 10.7816 10.3617H15.8831C19.7815 10.3617 21.7296 10.3617 22.7223 11.6139C23.7151 12.865 23.2424 14.7282 22.297 18.4512C21.6954 20.8199 21.3957 22.0038 20.4988 22.6939C19.6019 23.383 18.3623 23.383 15.8831 23.383H10.7816C8.30239 23.383 7.06281 23.383 6.1659 22.6939C5.26899 22.0038 4.96819 20.8199 4.36768 18.4512Z" stroke="white" stroke-width="2.5"/>
+                                        <path d="M21.5981 10.9042L20.8158 8.07754C20.5139 6.98701 20.3629 6.44228 20.0533 6.03103C19.7446 5.62245 19.3253 5.3077 18.8435 5.1228C18.3586 4.93616 17.7857 4.93616 16.6398 4.93616M5.07031 10.9042L5.85263 8.07754C6.15453 6.98701 6.30549 6.44228 6.61511 6.03103C6.92382 5.62245 7.34309 5.3077 7.82494 5.1228C8.30976 4.93616 8.88272 4.93616 10.0286 4.93616" stroke="white" stroke-width="2.5"/>
+                                        <path d="M10.0273 4.93618C10.0273 4.64839 10.1434 4.37239 10.3501 4.16889C10.5567 3.9654 10.837 3.85107 11.1292 3.85107H15.5366C15.8288 3.85107 16.1091 3.9654 16.3157 4.16889C16.5224 4.37239 16.6385 4.64839 16.6385 4.93618C16.6385 5.22397 16.5224 5.49997 16.3157 5.70347C16.1091 5.90696 15.8288 6.02129 15.5366 6.02129H11.1292C10.837 6.02129 10.5567 5.90696 10.3501 5.70347C10.1434 5.49997 10.0273 5.22397 10.0273 4.93618Z" stroke="white" stroke-width="2.5"/>
+                                    </svg>
+                                </a>
+                            </li> -->
+                            <li class="myOrder">
+                                <button type="button" class="btn" data-toggle="modal" data-target="#sideCart" data-whatever="@mdo">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 27 27" fill="none">
+                                        <path d="M4.36768 18.4512C3.42229 14.7271 2.9496 12.8661 3.94236 11.6139C4.93403 10.3617 6.88431 10.3617 10.7816 10.3617H15.8831C19.7815 10.3617 21.7296 10.3617 22.7223 11.6139C23.7151 12.865 23.2424 14.7282 22.297 18.4512C21.6954 20.8199 21.3957 22.0038 20.4988 22.6939C19.6019 23.383 18.3623 23.383 15.8831 23.383H10.7816C8.30239 23.383 7.06281 23.383 6.1659 22.6939C5.26899 22.0038 4.96819 20.8199 4.36768 18.4512Z" stroke="white" stroke-width="2.5"/>
+                                        <path d="M21.5981 10.9042L20.8158 8.07754C20.5139 6.98701 20.3629 6.44228 20.0533 6.03103C19.7446 5.62245 19.3253 5.3077 18.8435 5.1228C18.3586 4.93616 17.7857 4.93616 16.6398 4.93616M5.07031 10.9042L5.85263 8.07754C6.15453 6.98701 6.30549 6.44228 6.61511 6.03103C6.92382 5.62245 7.34309 5.3077 7.82494 5.1228C8.30976 4.93616 8.88272 4.93616 10.0286 4.93616" stroke="white" stroke-width="2.5"/>
+                                        <path d="M10.0273 4.93618C10.0273 4.64839 10.1434 4.37239 10.3501 4.16889C10.5567 3.9654 10.837 3.85107 11.1292 3.85107H15.5366C15.8288 3.85107 16.1091 3.9654 16.3157 4.16889C16.5224 4.37239 16.6385 4.64839 16.6385 4.93618C16.6385 5.22397 16.5224 5.49997 16.3157 5.70347C16.1091 5.90696 15.8288 6.02129 15.5366 6.02129H11.1292C10.837 6.02129 10.5567 5.90696 10.3501 5.70347C10.1434 5.49997 10.0273 5.22397 10.0273 4.93618Z" stroke="white" stroke-width="2.5"/>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li class="favItem">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 34 29" fill="none">
+                                        <path d="M9.8 1C4.94 1 1 4.87389 1 9.65233C1 18.3047 11.4 26.1704 17 28C22.6 26.1704 33 18.3047 33 9.65233C33 4.87389 29.06 1 24.2 1C21.224 1 18.592 2.45281 17 4.67646C16.1885 3.54002 15.1105 2.61255 13.8572 1.97259C12.6039 1.33263 11.2122 0.99902 9.8 1Z" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="logIn">
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                                            <path d="M17.8992 14.9C20.9092 14.9 23.3492 12.46 23.3492 9.45C23.3492 6.44005 20.9092 4 17.8992 4C14.8893 4 12.4492 6.44005 12.4492 9.45C12.4492 12.46 14.8893 14.9 17.8992 14.9Z" stroke="white" stroke-width="1.5"/>
+                                            <path d="M28.8 25.1187C28.8 28.5045 28.8 31.25 17.9 31.25C7 31.25 7 28.5045 7 25.1187C7 21.7329 11.8805 18.9875 17.9 18.9875C23.9195 18.9875 28.8 21.7329 28.8 25.1187Z" stroke="white" stroke-width="1.5"/>
+                                        </svg>
+                                    </button>
+                                    <div class="dropdown-menu" id="logIn" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" id="signIn" href="./signIn.html">Login</a>
+                                        <a class="dropdown-item" id="signUp" href="./signUp.html">Sign Up</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="headerBottom">
+            <div class="container no-padding">
+                <div class="row">
+                    <div class="headerBottomMobile col-md-1 col-sm-1 col-xs-1">
+                        <div class="menuIcon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="28" viewBox="0 0 26 18" fill="none">
+                                <path d="M1 1H25" stroke="#c33130" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M19.6667 9H1" stroke="#c33130" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M1 17H14.3333" stroke="#c33130" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+
+                        <div class="menuMobile">
+                            <div class="container no-padding">
+                                <div class="searchMobile">
+                                    <form action="">
+                                        <input type="search" name="search" id="" placeholder="Search..."><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 38 38" fill="none">
+                                            <path d="M33.2503 33.25L26.3739 26.3736M26.3739 26.3736C27.5501 25.1974 28.4832 23.801 29.1198 22.2641C29.7563 20.7273 30.084 19.0801 30.084 17.4167C30.084 15.7532 29.7563 14.1061 29.1198 12.5692C28.4832 11.0324 27.5501 9.63601 26.3739 8.45977C25.1977 7.28353 23.8013 6.35049 22.2644 5.71391C20.7276 5.07734 19.0804 4.74969 17.417 4.74969C15.7535 4.74969 14.1064 5.07734 12.5695 5.71391C11.0327 6.35049 9.63632 7.28353 8.46008 8.45977C6.08455 10.8353 4.75 14.0572 4.75 17.4167C4.75 20.7762 6.08455 23.9981 8.46008 26.3736C10.8356 28.7491 14.0575 30.0837 17.417 30.0837C20.7765 30.0837 23.9984 28.7491 26.3739 26.3736Z" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </form>
+                                </div>
+                                <ul class="mainMenuMobile">
+                                    <li><a href="./index.html">Home</a></li>
+                                    <li><a href="./aboutUs.html">About</a></li>
+                                    <li><a href="./menu.html">Menu</a></li>
+                                    <li><a href="#">Offers</a></li>
+                                    <li><a href="./checkout.html">checkout</a></li>
+                                    <li><a href="./contactUs.html">Contact</a></li>
+                                </ul>
+                                <div class="currencys col-md-6 col-sm-6 col-xs-6 custom-select">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <g clip-path="url(#clip0_1_262)">
+                                            <path d="M0.375 9.75H24V15H0.375V9.75Z" fill="#E6E7E8"/>
+                                            <path d="M12.156 12.375L1.68225 4.6875C0.567375 5.40262 0 6.72825 0 8.25V16.5C0 17.9561 0.519375 19.2334 1.54125 19.9672L12.1702 12.3851L12.156 12.375Z" fill="#EC1C24"/>
+                                            <path d="M8.5065 15L1.54688 19.9642C2.1225 20.3794 2.85488 20.625 3.7515 20.625H20.2515C22.7366 20.625 24.0015 18.7781 24.0015 16.5V15H8.5065Z" fill="#137A08"/>
+                                            <path d="M20.2513 4.125H3.75134C2.92597 4.125 2.24009 4.33237 1.68359 4.6875L8.58097 9.75H24.001V8.25C24.001 5.97188 22.7365 4.125 20.2513 4.125Z" fill="#25333A"/>
+                                            <path d="M3.70288 11.07L4.22825 9.46503L4.742 11.07L6.3035 10.4689L5.38063 11.8669L6.83188 12.7245L5.15188 12.87L5.38063 14.5392L4.22825 13.3204L3.06913 14.5392L3.293 12.87L1.625 12.7287L3.06463 11.8718L2.13687 10.4689L3.70288 11.07Z" fill="white"/>
+                                        </g>
+                                        <defs>
+                                            <clipPath clipPath id="clip0_1_262">
+                                                <rect width="24" height="24" fill="white"/>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <div class="dropdown">
+                                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            currency
+                                        </button>
+                                        <div class="dropdown-menu"  id="currencys" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item currency" href="#">JOD</a>
+                                            <a class="dropdown-item currency" href="#">USD</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="lang col-md-6 col-sm-6 col-xs-6 custom-select">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                                        <g clip-path="url(#clip0_1_254)">
+                                            <path d="M16.2176 11C16.215 10.1783 16.1269 9.35907 15.9548 8.55557H18.1548C18.0415 8.22042 17.9047 7.89368 17.7453 7.5778H15.6981C15.3133 6.29205 14.7163 5.07963 13.932 3.99057C13.4309 3.77986 12.9084 3.62414 12.3737 3.52613C13.4482 4.68067 14.2593 6.05472 14.7509 7.55335H11.457V3.42224H10.5403V7.55946H7.24644C7.73904 6.05811 8.55228 4.68186 9.62977 3.52613C9.09736 3.6225 8.57692 3.77617 8.07755 3.98446C7.29011 5.06895 6.68908 6.2772 6.29922 7.55946H4.23977C4.07757 7.88111 3.93869 8.21401 3.82422 8.55557H6.04255C5.87039 9.35907 5.78233 10.1783 5.77977 11C5.78146 11.8988 5.88396 12.7946 6.08533 13.6706H3.922C4.04842 14.0131 4.19956 14.346 4.37422 14.6667H6.34811C6.72224 15.8374 7.27688 16.9426 7.992 17.9422C8.50409 18.1619 9.03905 18.3238 9.587 18.425C8.58961 17.3371 7.82257 16.0587 7.332 14.6667H10.5464V18.5411H11.4631V14.6667H14.6653C14.1731 16.0593 13.4039 17.3377 12.4042 18.425C12.9547 18.3203 13.4918 18.1543 14.0053 17.93C14.7193 16.9341 15.2739 15.8332 15.6492 14.6667H17.6048C17.7786 14.352 17.9298 14.0252 18.057 13.6889H15.8876C16.0985 12.8079 16.2092 11.9059 16.2176 11ZM10.5403 13.6706H7.03255C6.60231 11.9887 6.58345 10.2279 6.97755 8.53724H10.5403V13.6706ZM14.9648 13.6706H11.457V8.55557H15.0198C15.1953 9.35841 15.2814 10.1782 15.2764 11C15.2814 11.8996 15.1768 12.7964 14.9648 13.6706Z" fill="white"/>
+                                            <path d="M11.0004 1.22223C9.06658 1.22223 7.17614 1.79569 5.5682 2.87008C3.96025 3.94448 2.70701 5.47156 1.96695 7.25821C1.22689 9.04487 1.03326 11.0109 1.41054 12.9076C1.78782 14.8043 2.71906 16.5465 4.08651 17.9139C5.45395 19.2814 7.19619 20.2126 9.09289 20.5899C10.9896 20.9672 12.9556 20.7736 14.7422 20.0335C16.5289 19.2934 18.056 18.0402 19.1304 16.4322C20.2048 14.8243 20.7782 12.9339 20.7782 11C20.7782 8.40678 19.7481 5.91976 17.9144 4.08607C16.0807 2.25238 13.5937 1.22223 11.0004 1.22223ZM11.0004 19.5556C9.30831 19.5556 7.65418 19.0538 6.24723 18.1137C4.84027 17.1736 3.74369 15.8374 3.09614 14.2741C2.44859 12.7108 2.27916 10.9905 2.60928 9.3309C2.93939 7.67129 3.75423 6.14683 4.95075 4.95032C6.14726 3.7538 7.67172 2.93896 9.33133 2.60884C10.9909 2.27873 12.7112 2.44815 14.2745 3.0957C15.8378 3.74325 17.174 4.83984 18.1141 6.24679C19.0542 7.65375 19.556 9.30788 19.556 11C19.556 13.2691 18.6546 15.4452 17.0501 17.0497C15.4457 18.6542 13.2695 19.5556 11.0004 19.5556Z" fill="white"/>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1_254">
+                                                <rect width="22" height="22" fill="white"/>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <!-- <select id="lang">
+                                        <option id="en" class="opt">English</option>
+                                        <option id="en" class="opt">Arabic</option>
+                                    </select> -->
         
-                            <div class="lang custom-select">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
-                                    <g clip-path="url(#clip0_1_254)">
-                                        <path d="M16.2176 11C16.215 10.1783 16.1269 9.35907 15.9548 8.55557H18.1548C18.0415 8.22042 17.9047 7.89368 17.7453 7.5778H15.6981C15.3133 6.29205 14.7163 5.07963 13.932 3.99057C13.4309 3.77986 12.9084 3.62414 12.3737 3.52613C13.4482 4.68067 14.2593 6.05472 14.7509 7.55335H11.457V3.42224H10.5403V7.55946H7.24644C7.73904 6.05811 8.55228 4.68186 9.62977 3.52613C9.09736 3.6225 8.57692 3.77617 8.07755 3.98446C7.29011 5.06895 6.68908 6.2772 6.29922 7.55946H4.23977C4.07757 7.88111 3.93869 8.21401 3.82422 8.55557H6.04255C5.87039 9.35907 5.78233 10.1783 5.77977 11C5.78146 11.8988 5.88396 12.7946 6.08533 13.6706H3.922C4.04842 14.0131 4.19956 14.346 4.37422 14.6667H6.34811C6.72224 15.8374 7.27688 16.9426 7.992 17.9422C8.50409 18.1619 9.03905 18.3238 9.587 18.425C8.58961 17.3371 7.82257 16.0587 7.332 14.6667H10.5464V18.5411H11.4631V14.6667H14.6653C14.1731 16.0593 13.4039 17.3377 12.4042 18.425C12.9547 18.3203 13.4918 18.1543 14.0053 17.93C14.7193 16.9341 15.2739 15.8332 15.6492 14.6667H17.6048C17.7786 14.352 17.9298 14.0252 18.057 13.6889H15.8876C16.0985 12.8079 16.2092 11.9059 16.2176 11ZM10.5403 13.6706H7.03255C6.60231 11.9887 6.58345 10.2279 6.97755 8.53724H10.5403V13.6706ZM14.9648 13.6706H11.457V8.55557H15.0198C15.1953 9.35841 15.2814 10.1782 15.2764 11C15.2814 11.8996 15.1768 12.7964 14.9648 13.6706Z" fill="white"/>
-                                        <path d="M11.0004 1.22223C9.06658 1.22223 7.17614 1.79569 5.5682 2.87008C3.96025 3.94448 2.70701 5.47156 1.96695 7.25821C1.22689 9.04487 1.03326 11.0109 1.41054 12.9076C1.78782 14.8043 2.71906 16.5465 4.08651 17.9139C5.45395 19.2814 7.19619 20.2126 9.09289 20.5899C10.9896 20.9672 12.9556 20.7736 14.7422 20.0335C16.5289 19.2934 18.056 18.0402 19.1304 16.4322C20.2048 14.8243 20.7782 12.9339 20.7782 11C20.7782 8.40678 19.7481 5.91976 17.9144 4.08607C16.0807 2.25238 13.5937 1.22223 11.0004 1.22223ZM11.0004 19.5556C9.30831 19.5556 7.65418 19.0538 6.24723 18.1137C4.84027 17.1736 3.74369 15.8374 3.09614 14.2741C2.44859 12.7108 2.27916 10.9905 2.60928 9.3309C2.93939 7.67129 3.75423 6.14683 4.95075 4.95032C6.14726 3.7538 7.67172 2.93896 9.33133 2.60884C10.9909 2.27873 12.7112 2.44815 14.2745 3.0957C15.8378 3.74325 17.174 4.83984 18.1141 6.24679C19.0542 7.65375 19.556 9.30788 19.556 11C19.556 13.2691 18.6546 15.4452 17.0501 17.0497C15.4457 18.6542 13.2695 19.5556 11.0004 19.5556Z" fill="white"/>
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_1_254">
-                                            <rect width="22" height="22" fill="white"/>
-                                        </clipPath>
-                                    </defs>
-                                </svg>
-                                <!-- <select id="lang">
-                                    <option id="en" class="opt">English</option>
-                                    <option id="en" class="opt">Arabic</option>
-                                </select> -->
-    
+                                    <div class="dropdown">
+                                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            language
+                                        </button>
+                                        <div class="dropdown-menu" id="lang" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" id="en" href="./accountInfo.html">English</a>
+                                            <a class="dropdown-item" id="ar" href="./accountInfoAr.html">Arabic</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="headerBottomLeft col-md-3 col-sm-11 col-xs-11">
+                        <a href="./index.html">
+                            <img src="./images/logo.png" alt="logoIcon">
+                            <span>PHOENIX</span> FOOD
+                        </a>
+                    </div>
+                    <div class="headerBottomCenter col-md-4 col-sm-12 col-xs-12">
+                        <ul class="mainMenu">
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./aboutUs.html">About</a></li>
+                            <li><a href="./menu.html">Menu</a></li>
+                            <li><a href="#">Offers</a></li>
+                            <li><a href="./contactUs.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="headerBottomRight col-md-5 col-sm-12 col-xs-12">
+                        <ul>
+                            <li class="Search" data-toggle="modal">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" fill="none">
+                                        <path d="M33.2503 33.25L26.3739 26.3736M26.3739 26.3736C27.5501 25.1974 28.4832 23.801 29.1198 22.2641C29.7563 20.7273 30.084 19.0801 30.084 17.4167C30.084 15.7532 29.7563 14.1061 29.1198 12.5692C28.4832 11.0324 27.5501 9.63601 26.3739 8.45977C25.1977 7.28353 23.8013 6.35049 22.2644 5.71391C20.7276 5.07734 19.0804 4.74969 17.417 4.74969C15.7535 4.74969 14.1064 5.07734 12.5695 5.71391C11.0327 6.35049 9.63632 7.28353 8.46008 8.45977C6.08455 10.8353 4.75 14.0572 4.75 17.4167C4.75 20.7762 6.08455 23.9981 8.46008 26.3736C10.8356 28.7491 14.0575 30.0837 17.417 30.0837C20.7765 30.0837 23.9984 28.7491 26.3739 26.3736Z" stroke="#212121" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg> Search
+                                </span>
+                            </li>
+                            <li class="order"><a href="./menu.html">Order Now</a></li>
+                            <li class="logIn">
                                 <div class="dropdown">
                                     <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        language
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                                            <path d="M17.8992 14.9C20.9092 14.9 23.3492 12.46 23.3492 9.45C23.3492 6.44005 20.9092 4 17.8992 4C14.8893 4 12.4492 6.44005 12.4492 9.45C12.4492 12.46 14.8893 14.9 17.8992 14.9Z" stroke="white" stroke-width="1.5"/>
+                                            <path d="M28.8 25.1187C28.8 28.5045 28.8 31.25 17.9 31.25C7 31.25 7 28.5045 7 25.1187C7 21.7329 11.8805 18.9875 17.9 18.9875C23.9195 18.9875 28.8 21.7329 28.8 25.1187Z" stroke="white" stroke-width="1.5"/>
+                                        </svg>
                                     </button>
-                                    <div class="dropdown-menu" id="lang" aria-labelledby="dropdownMenuButton">
-                                        <a class="dropdown-item" id="en" href="#">English</a>
-                                        <a class="dropdown-item" id="ar" href="#">Arabic</a>
+                                    <div class="dropdown-menu" id="logIn" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" id="signIn" href="./signIn.html">Login</a>
+                                        <a class="dropdown-item" id="signUp" href="./signUp.html">Sign Up</a>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="headerTopMobile col-md-12 col-sm-12 col-xs-12">
-                            <ul class="social">
-                                <li><a href="#"><img src="./images/fb.png" alt="facebookIcon"></a></li>
-                                <li><a href="#"><img src="./images/insta.png" alt="instagramIcon"></a></li>
-                                <li><a href="#"><img src="./images/tiktok.png" alt="tiktokIcon"></a></li>
-                                <li><a href="#"><img src="./images/yt.png" alt="youtubeIcone"></a></li>
-                            </ul>
-                            <ul>
-                                <!-- <li class="cards">
-                                    <a href="./checkout.html">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 27 27" fill="none">
-                                            <path d="M4.36768 18.4512C3.42229 14.7271 2.9496 12.8661 3.94236 11.6139C4.93403 10.3617 6.88431 10.3617 10.7816 10.3617H15.8831C19.7815 10.3617 21.7296 10.3617 22.7223 11.6139C23.7151 12.865 23.2424 14.7282 22.297 18.4512C21.6954 20.8199 21.3957 22.0038 20.4988 22.6939C19.6019 23.383 18.3623 23.383 15.8831 23.383H10.7816C8.30239 23.383 7.06281 23.383 6.1659 22.6939C5.26899 22.0038 4.96819 20.8199 4.36768 18.4512Z" stroke="white" stroke-width="2.5"/>
-                                            <path d="M21.5981 10.9042L20.8158 8.07754C20.5139 6.98701 20.3629 6.44228 20.0533 6.03103C19.7446 5.62245 19.3253 5.3077 18.8435 5.1228C18.3586 4.93616 17.7857 4.93616 16.6398 4.93616M5.07031 10.9042L5.85263 8.07754C6.15453 6.98701 6.30549 6.44228 6.61511 6.03103C6.92382 5.62245 7.34309 5.3077 7.82494 5.1228C8.30976 4.93616 8.88272 4.93616 10.0286 4.93616" stroke="white" stroke-width="2.5"/>
-                                            <path d="M10.0273 4.93618C10.0273 4.64839 10.1434 4.37239 10.3501 4.16889C10.5567 3.9654 10.837 3.85107 11.1292 3.85107H15.5366C15.8288 3.85107 16.1091 3.9654 16.3157 4.16889C16.5224 4.37239 16.6385 4.64839 16.6385 4.93618C16.6385 5.22397 16.5224 5.49997 16.3157 5.70347C16.1091 5.90696 15.8288 6.02129 15.5366 6.02129H11.1292C10.837 6.02129 10.5567 5.90696 10.3501 5.70347C10.1434 5.49997 10.0273 5.22397 10.0273 4.93618Z" stroke="white" stroke-width="2.5"/>
-                                        </svg>
-                                    </a>
-                                </li> -->
-                                <li class="myOrder">
-                                    <button type="button" class="btn" data-toggle="modal" data-target="#sideCart" data-whatever="@mdo">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 27 27" fill="none">
-                                            <path d="M4.36768 18.4512C3.42229 14.7271 2.9496 12.8661 3.94236 11.6139C4.93403 10.3617 6.88431 10.3617 10.7816 10.3617H15.8831C19.7815 10.3617 21.7296 10.3617 22.7223 11.6139C23.7151 12.865 23.2424 14.7282 22.297 18.4512C21.6954 20.8199 21.3957 22.0038 20.4988 22.6939C19.6019 23.383 18.3623 23.383 15.8831 23.383H10.7816C8.30239 23.383 7.06281 23.383 6.1659 22.6939C5.26899 22.0038 4.96819 20.8199 4.36768 18.4512Z" stroke="white" stroke-width="2.5"/>
-                                            <path d="M21.5981 10.9042L20.8158 8.07754C20.5139 6.98701 20.3629 6.44228 20.0533 6.03103C19.7446 5.62245 19.3253 5.3077 18.8435 5.1228C18.3586 4.93616 17.7857 4.93616 16.6398 4.93616M5.07031 10.9042L5.85263 8.07754C6.15453 6.98701 6.30549 6.44228 6.61511 6.03103C6.92382 5.62245 7.34309 5.3077 7.82494 5.1228C8.30976 4.93616 8.88272 4.93616 10.0286 4.93616" stroke="white" stroke-width="2.5"/>
-                                            <path d="M10.0273 4.93618C10.0273 4.64839 10.1434 4.37239 10.3501 4.16889C10.5567 3.9654 10.837 3.85107 11.1292 3.85107H15.5366C15.8288 3.85107 16.1091 3.9654 16.3157 4.16889C16.5224 4.37239 16.6385 4.64839 16.6385 4.93618C16.6385 5.22397 16.5224 5.49997 16.3157 5.70347C16.1091 5.90696 15.8288 6.02129 15.5366 6.02129H11.1292C10.837 6.02129 10.5567 5.90696 10.3501 5.70347C10.1434 5.49997 10.0273 5.22397 10.0273 4.93618Z" stroke="white" stroke-width="2.5"/>
-                                        </svg>
-                                    </button>
-                                </li>
-                                <li class="favItem">
-                                    <a href="#">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 34 29" fill="none">
-                                            <path d="M9.8 1C4.94 1 1 4.87389 1 9.65233C1 18.3047 11.4 26.1704 17 28C22.6 26.1704 33 18.3047 33 9.65233C33 4.87389 29.06 1 24.2 1C21.224 1 18.592 2.45281 17 4.67646C16.1885 3.54002 15.1105 2.61255 13.8572 1.97259C12.6039 1.33263 11.2122 0.99902 9.8 1Z" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li class="logIn">
-                                    <div class="dropdown">
-                                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
-                                                <path d="M17.8992 14.9C20.9092 14.9 23.3492 12.46 23.3492 9.45C23.3492 6.44005 20.9092 4 17.8992 4C14.8893 4 12.4492 6.44005 12.4492 9.45C12.4492 12.46 14.8893 14.9 17.8992 14.9Z" stroke="white" stroke-width="1.5"/>
-                                                <path d="M28.8 25.1187C28.8 28.5045 28.8 31.25 17.9 31.25C7 31.25 7 28.5045 7 25.1187C7 21.7329 11.8805 18.9875 17.9 18.9875C23.9195 18.9875 28.8 21.7329 28.8 25.1187Z" stroke="white" stroke-width="1.5"/>
-                                            </svg>
-                                        </button>
-                                        <div class="dropdown-menu" id="logIn" aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item" id="signIn" href="./signIn.html">Login</a>
-                                            <a class="dropdown-item" id="signUp" href="./signUp.html">Sign Up</a>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
+                            </li>
+                            <li class="cards">
+                                <a href="./checkout.html">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 27 27" fill="none">
+                                        <path d="M4.36768 18.4512C3.42229 14.7271 2.9496 12.8661 3.94236 11.6139C4.93403 10.3617 6.88431 10.3617 10.7816 10.3617H15.8831C19.7815 10.3617 21.7296 10.3617 22.7223 11.6139C23.7151 12.865 23.2424 14.7282 22.297 18.4512C21.6954 20.8199 21.3957 22.0038 20.4988 22.6939C19.6019 23.383 18.3623 23.383 15.8831 23.383H10.7816C8.30239 23.383 7.06281 23.383 6.1659 22.6939C5.26899 22.0038 4.96819 20.8199 4.36768 18.4512Z" stroke="white" stroke-width="1.5"/>
+                                        <path d="M21.5981 10.9042L20.8158 8.07754C20.5139 6.98701 20.3629 6.44228 20.0533 6.03103C19.7446 5.62245 19.3253 5.3077 18.8435 5.1228C18.3586 4.93616 17.7857 4.93616 16.6398 4.93616M5.07031 10.9042L5.85263 8.07754C6.15453 6.98701 6.30549 6.44228 6.61511 6.03103C6.92382 5.62245 7.34309 5.3077 7.82494 5.1228C8.30976 4.93616 8.88272 4.93616 10.0286 4.93616" stroke="white" stroke-width="1.5"/>
+                                        <path d="M10.0273 4.93618C10.0273 4.64839 10.1434 4.37239 10.3501 4.16889C10.5567 3.9654 10.837 3.85107 11.1292 3.85107H15.5366C15.8288 3.85107 16.1091 3.9654 16.3157 4.16889C16.5224 4.37239 16.6385 4.64839 16.6385 4.93618C16.6385 5.22397 16.5224 5.49997 16.3157 5.70347C16.1091 5.90696 15.8288 6.02129 15.5366 6.02129H11.1292C10.837 6.02129 10.5567 5.90696 10.3501 5.70347C10.1434 5.49997 10.0273 5.22397 10.0273 4.93618Z" stroke="white" stroke-width="1.5"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="favItem">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="29" viewBox="0 0 34 29" fill="none">
+                                        <path d="M9.8 1C4.94 1 1 4.87389 1 9.65233C1 18.3047 11.4 26.1704 17 28C22.6 26.1704 33 18.3047 33 9.65233C33 4.87389 29.06 1 24.2 1C21.224 1 18.592 2.45281 17 4.67646C16.1885 3.54002 15.1105 2.61255 13.8572 1.97259C12.6039 1.33263 11.2122 0.99902 9.8 1Z" stroke="#1E1E1E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="myOrder">
+                                <button type="button" class="btn" data-toggle="modal" data-target="#sideCart" data-whatever="@mdo">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24">
+                                        <path d="M16.53 7l-.564 2h-15.127l-.839-2h16.53zm-14.013 6h12.319l.564-2h-13.722l.839 2zm5.983 5c-.828 0-1.5.672-1.5 1.5 0 .829.672 1.5 1.5 1.5s1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5zm11.305-15l-3.432 12h-13.017l.839 2h13.659l3.474-12h1.929l.743-2h-4.195zm-6.305 15c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5z"/>
+                                    </svg>
+                                </button>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            <div class="headerBottom">
-                <div class="container no-padding">
-                    <div class="row">
-                        <div class="headerBottomMobile col-md-1 col-sm-1 col-xs-1">
-                            <div class="menuIcon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="28" viewBox="0 0 26 18" fill="none">
-                                    <path d="M1 1H25" stroke="#c33130" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M19.6667 9H1" stroke="#c33130" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M1 17H14.3333" stroke="#c33130" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </div>
-    
-                            <div class="menuMobile">
-                                <div class="container no-padding">
-                                    <div class="searchMobile">
-                                        <form action="">
-                                            <input type="search" name="search" id="" placeholder="Search..."><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 38 38" fill="none">
-                                                <path d="M33.2503 33.25L26.3739 26.3736M26.3739 26.3736C27.5501 25.1974 28.4832 23.801 29.1198 22.2641C29.7563 20.7273 30.084 19.0801 30.084 17.4167C30.084 15.7532 29.7563 14.1061 29.1198 12.5692C28.4832 11.0324 27.5501 9.63601 26.3739 8.45977C25.1977 7.28353 23.8013 6.35049 22.2644 5.71391C20.7276 5.07734 19.0804 4.74969 17.417 4.74969C15.7535 4.74969 14.1064 5.07734 12.5695 5.71391C11.0327 6.35049 9.63632 7.28353 8.46008 8.45977C6.08455 10.8353 4.75 14.0572 4.75 17.4167C4.75 20.7762 6.08455 23.9981 8.46008 26.3736C10.8356 28.7491 14.0575 30.0837 17.417 30.0837C20.7765 30.0837 23.9984 28.7491 26.3739 26.3736Z" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                        </form>
-                                    </div>
-                                    <ul class="mainMenuMobile">
-                                        <li><a href="./index.html">Home</a></li>
-                                        <li><a href="./aboutUs.html">About</a></li>
-                                        <li><a href="./menu.html">Menu</a></li>
-                                        <li><a href="#">Offers</a></li>
-                                        <li><a href="./checkout.html">checkout</a></li>
-                                        <li><a href="./contactUs.html">Contact</a></li>
-                                    </ul>
-                                    <div class="currencys col-md-6 col-sm-6 col-xs-6 custom-select">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                            <g clip-path="url(#clip0_1_262)">
-                                                <path d="M0.375 9.75H24V15H0.375V9.75Z" fill="#E6E7E8"/>
-                                                <path d="M12.156 12.375L1.68225 4.6875C0.567375 5.40262 0 6.72825 0 8.25V16.5C0 17.9561 0.519375 19.2334 1.54125 19.9672L12.1702 12.3851L12.156 12.375Z" fill="#EC1C24"/>
-                                                <path d="M8.5065 15L1.54688 19.9642C2.1225 20.3794 2.85488 20.625 3.7515 20.625H20.2515C22.7366 20.625 24.0015 18.7781 24.0015 16.5V15H8.5065Z" fill="#137A08"/>
-                                                <path d="M20.2513 4.125H3.75134C2.92597 4.125 2.24009 4.33237 1.68359 4.6875L8.58097 9.75H24.001V8.25C24.001 5.97188 22.7365 4.125 20.2513 4.125Z" fill="#25333A"/>
-                                                <path d="M3.70288 11.07L4.22825 9.46503L4.742 11.07L6.3035 10.4689L5.38063 11.8669L6.83188 12.7245L5.15188 12.87L5.38063 14.5392L4.22825 13.3204L3.06913 14.5392L3.293 12.87L1.625 12.7287L3.06463 11.8718L2.13687 10.4689L3.70288 11.07Z" fill="white"/>
-                                            </g>
-                                            <defs>
-                                                <clipPath clipPath id="clip0_1_262">
-                                                    <rect width="24" height="24" fill="white"/>
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                        <div class="dropdown">
-                                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                currency
-                                            </button>
-                                            <div class="dropdown-menu"  id="currencys" aria-labelledby="dropdownMenuButton">
-                                                <a class="dropdown-item currency" href="#">JOD</a>
-                                                <a class="dropdown-item currency" href="#">USD</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="lang col-md-6 col-sm-6 col-xs-6 custom-select">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
-                                            <g clip-path="url(#clip0_1_254)">
-                                                <path d="M16.2176 11C16.215 10.1783 16.1269 9.35907 15.9548 8.55557H18.1548C18.0415 8.22042 17.9047 7.89368 17.7453 7.5778H15.6981C15.3133 6.29205 14.7163 5.07963 13.932 3.99057C13.4309 3.77986 12.9084 3.62414 12.3737 3.52613C13.4482 4.68067 14.2593 6.05472 14.7509 7.55335H11.457V3.42224H10.5403V7.55946H7.24644C7.73904 6.05811 8.55228 4.68186 9.62977 3.52613C9.09736 3.6225 8.57692 3.77617 8.07755 3.98446C7.29011 5.06895 6.68908 6.2772 6.29922 7.55946H4.23977C4.07757 7.88111 3.93869 8.21401 3.82422 8.55557H6.04255C5.87039 9.35907 5.78233 10.1783 5.77977 11C5.78146 11.8988 5.88396 12.7946 6.08533 13.6706H3.922C4.04842 14.0131 4.19956 14.346 4.37422 14.6667H6.34811C6.72224 15.8374 7.27688 16.9426 7.992 17.9422C8.50409 18.1619 9.03905 18.3238 9.587 18.425C8.58961 17.3371 7.82257 16.0587 7.332 14.6667H10.5464V18.5411H11.4631V14.6667H14.6653C14.1731 16.0593 13.4039 17.3377 12.4042 18.425C12.9547 18.3203 13.4918 18.1543 14.0053 17.93C14.7193 16.9341 15.2739 15.8332 15.6492 14.6667H17.6048C17.7786 14.352 17.9298 14.0252 18.057 13.6889H15.8876C16.0985 12.8079 16.2092 11.9059 16.2176 11ZM10.5403 13.6706H7.03255C6.60231 11.9887 6.58345 10.2279 6.97755 8.53724H10.5403V13.6706ZM14.9648 13.6706H11.457V8.55557H15.0198C15.1953 9.35841 15.2814 10.1782 15.2764 11C15.2814 11.8996 15.1768 12.7964 14.9648 13.6706Z" fill="white"/>
-                                                <path d="M11.0004 1.22223C9.06658 1.22223 7.17614 1.79569 5.5682 2.87008C3.96025 3.94448 2.70701 5.47156 1.96695 7.25821C1.22689 9.04487 1.03326 11.0109 1.41054 12.9076C1.78782 14.8043 2.71906 16.5465 4.08651 17.9139C5.45395 19.2814 7.19619 20.2126 9.09289 20.5899C10.9896 20.9672 12.9556 20.7736 14.7422 20.0335C16.5289 19.2934 18.056 18.0402 19.1304 16.4322C20.2048 14.8243 20.7782 12.9339 20.7782 11C20.7782 8.40678 19.7481 5.91976 17.9144 4.08607C16.0807 2.25238 13.5937 1.22223 11.0004 1.22223ZM11.0004 19.5556C9.30831 19.5556 7.65418 19.0538 6.24723 18.1137C4.84027 17.1736 3.74369 15.8374 3.09614 14.2741C2.44859 12.7108 2.27916 10.9905 2.60928 9.3309C2.93939 7.67129 3.75423 6.14683 4.95075 4.95032C6.14726 3.7538 7.67172 2.93896 9.33133 2.60884C10.9909 2.27873 12.7112 2.44815 14.2745 3.0957C15.8378 3.74325 17.174 4.83984 18.1141 6.24679C19.0542 7.65375 19.556 9.30788 19.556 11C19.556 13.2691 18.6546 15.4452 17.0501 17.0497C15.4457 18.6542 13.2695 19.5556 11.0004 19.5556Z" fill="white"/>
-                                            </g>
-                                            <defs>
-                                                <clipPath id="clip0_1_254">
-                                                    <rect width="22" height="22" fill="white"/>
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                        <!-- <select id="lang">
-                                            <option id="en" class="opt">English</option>
-                                            <option id="en" class="opt">Arabic</option>
-                                        </select> -->
-            
-                                        <div class="dropdown">
-                                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                language
-                                            </button>
-                                            <div class="dropdown-menu" id="lang" aria-labelledby="dropdownMenuButton">
-                                                <a class="dropdown-item" id="en" href="#">English</a>
-                                                <a class="dropdown-item" id="ar" href="#">Arabic</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-    
-                        </div>
-                        <div class="headerBottomLeft col-md-3 col-sm-11 col-xs-11">
-                            <a href="./index.html">
-                                <img src="./images/logo.png" alt="logoIcon">
-                                <span>PHOENIX</span> FOOD
-                            </a>
-                        </div>
-                        <div class="headerBottomCenter col-md-4 col-sm-12 col-xs-12">
-                            <ul class="mainMenu">
-                                <li><a href="./index.html">Home</a></li>
-                                <li><a href="./aboutUs.html">About</a></li>
-                                <li><a href="./menu.html">Menu</a></li>
-                                <li><a href="#">Offers</a></li>
-                                <li><a href="./contactUs.html">Contact</a></li>
-                            </ul>
-                        </div>
-                        <div class="headerBottomRight col-md-5 col-sm-12 col-xs-12">
-                            <ul>
-                                <li class="Search" data-toggle="modal">
-                                    <span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" fill="none">
-                                            <path d="M33.2503 33.25L26.3739 26.3736M26.3739 26.3736C27.5501 25.1974 28.4832 23.801 29.1198 22.2641C29.7563 20.7273 30.084 19.0801 30.084 17.4167C30.084 15.7532 29.7563 14.1061 29.1198 12.5692C28.4832 11.0324 27.5501 9.63601 26.3739 8.45977C25.1977 7.28353 23.8013 6.35049 22.2644 5.71391C20.7276 5.07734 19.0804 4.74969 17.417 4.74969C15.7535 4.74969 14.1064 5.07734 12.5695 5.71391C11.0327 6.35049 9.63632 7.28353 8.46008 8.45977C6.08455 10.8353 4.75 14.0572 4.75 17.4167C4.75 20.7762 6.08455 23.9981 8.46008 26.3736C10.8356 28.7491 14.0575 30.0837 17.417 30.0837C20.7765 30.0837 23.9984 28.7491 26.3739 26.3736Z" stroke="#212121" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg> Search
-                                    </span>
-                                </li>
-                                <li class="order"><a href="./menu.html">Order Now</a></li>
-                                <li class="logIn">
-                                    <div class="dropdown">
-                                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
-                                                <path d="M17.8992 14.9C20.9092 14.9 23.3492 12.46 23.3492 9.45C23.3492 6.44005 20.9092 4 17.8992 4C14.8893 4 12.4492 6.44005 12.4492 9.45C12.4492 12.46 14.8893 14.9 17.8992 14.9Z" stroke="white" stroke-width="1.5"/>
-                                                <path d="M28.8 25.1187C28.8 28.5045 28.8 31.25 17.9 31.25C7 31.25 7 28.5045 7 25.1187C7 21.7329 11.8805 18.9875 17.9 18.9875C23.9195 18.9875 28.8 21.7329 28.8 25.1187Z" stroke="white" stroke-width="1.5"/>
-                                            </svg>
-                                        </button>
-                                        <div class="dropdown-menu" id="logIn" aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item" id="signIn" href="./signIn.html">Login</a>
-                                            <a class="dropdown-item" id="signUp" href="./signUp.html">Sign Up</a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="cards">
-                                    <a href="./checkout.html">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 27 27" fill="none">
-                                            <path d="M4.36768 18.4512C3.42229 14.7271 2.9496 12.8661 3.94236 11.6139C4.93403 10.3617 6.88431 10.3617 10.7816 10.3617H15.8831C19.7815 10.3617 21.7296 10.3617 22.7223 11.6139C23.7151 12.865 23.2424 14.7282 22.297 18.4512C21.6954 20.8199 21.3957 22.0038 20.4988 22.6939C19.6019 23.383 18.3623 23.383 15.8831 23.383H10.7816C8.30239 23.383 7.06281 23.383 6.1659 22.6939C5.26899 22.0038 4.96819 20.8199 4.36768 18.4512Z" stroke="white" stroke-width="1.5"/>
-                                            <path d="M21.5981 10.9042L20.8158 8.07754C20.5139 6.98701 20.3629 6.44228 20.0533 6.03103C19.7446 5.62245 19.3253 5.3077 18.8435 5.1228C18.3586 4.93616 17.7857 4.93616 16.6398 4.93616M5.07031 10.9042L5.85263 8.07754C6.15453 6.98701 6.30549 6.44228 6.61511 6.03103C6.92382 5.62245 7.34309 5.3077 7.82494 5.1228C8.30976 4.93616 8.88272 4.93616 10.0286 4.93616" stroke="white" stroke-width="1.5"/>
-                                            <path d="M10.0273 4.93618C10.0273 4.64839 10.1434 4.37239 10.3501 4.16889C10.5567 3.9654 10.837 3.85107 11.1292 3.85107H15.5366C15.8288 3.85107 16.1091 3.9654 16.3157 4.16889C16.5224 4.37239 16.6385 4.64839 16.6385 4.93618C16.6385 5.22397 16.5224 5.49997 16.3157 5.70347C16.1091 5.90696 15.8288 6.02129 15.5366 6.02129H11.1292C10.837 6.02129 10.5567 5.90696 10.3501 5.70347C10.1434 5.49997 10.0273 5.22397 10.0273 4.93618Z" stroke="white" stroke-width="1.5"/>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li class="favItem">
-                                    <a href="#">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="29" viewBox="0 0 34 29" fill="none">
-                                            <path d="M9.8 1C4.94 1 1 4.87389 1 9.65233C1 18.3047 11.4 26.1704 17 28C22.6 26.1704 33 18.3047 33 9.65233C33 4.87389 29.06 1 24.2 1C21.224 1 18.592 2.45281 17 4.67646C16.1885 3.54002 15.1105 2.61255 13.8572 1.97259C12.6039 1.33263 11.2122 0.99902 9.8 1Z" stroke="#1E1E1E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li class="myOrder">
-                                    <button type="button" class="btn" data-toggle="modal" data-target="#sideCart" data-whatever="@mdo">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24">
-                                            <path d="M16.53 7l-.564 2h-15.127l-.839-2h16.53zm-14.013 6h12.319l.564-2h-13.722l.839 2zm5.983 5c-.828 0-1.5.672-1.5 1.5 0 .829.672 1.5 1.5 1.5s1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5zm11.305-15l-3.432 12h-13.017l.839 2h13.659l3.474-12h1.929l.743-2h-4.195zm-6.305 15c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5z"/>
-                                        </svg>
-                                    </button>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- Header -->
+        </div>
+    </header>
+    <!-- Header -->
 
     <!-- Inner Image -->
     <section class="innerTop">
@@ -400,7 +400,7 @@
         <div class="container">
             <div class="footerTop row">
                 <div class="footerLogo col-md-4 col-sm-12 col-xs-12">
-                    <div class="logoo">
+                    <a href="./index.html" class="logoo">
                         <svg xmlns="http://www.w3.org/2000/svg" width="58" height="40" viewBox="0 0 58 40" fill="none">
                             <path d="M45.5257 21.8765H12.2599C11.7332 21.8765 11.3086 21.454 11.3086 20.93C11.3086 20.4059 11.7332 19.9834 12.2599 19.9834H45.5257C46.0523 19.9834 46.477 20.4059 46.477 20.93C46.477 21.454 46.0523 21.8765 45.5257 21.8765Z" fill="white"/>
                             <path d="M28.1353 0C27.8658 0 27.6453 0.223436 27.6698 0.49156C27.7923 1.96624 28.2904 3.07124 28.8946 3.07124C29.4989 3.07124 29.997 1.96624 30.1194 0.49156C30.1399 0.227499 29.9194 0 29.654 0H28.1353Z" fill="white"/>
@@ -432,7 +432,7 @@
                             <path d="M11.0231 7.73506C10.1943 8.09256 9.57785 8.72631 9.22266 9.48193C10.0188 9.73787 10.9088 9.72162 11.7335 9.36412C12.5623 9.00662 13.1788 8.37287 13.534 7.61725C12.7419 7.36131 11.8519 7.37756 11.0231 7.73506Z" fill="white"/>
                             <path d="M8.20955 9.02693C8.54841 8.26724 8.62598 7.38568 8.35244 6.5285C8.08298 5.67131 7.51141 4.99288 6.79285 4.56226C6.45399 5.32194 6.37641 6.2035 6.64996 7.06068C6.9235 7.91787 7.49508 8.5963 8.20955 9.02693Z" fill="white"/>
                         </svg> PHOENIX FOOD
-                    </div>
+                    </a>
                     <div class="body">
                         Lorem Ipsum is simply dummy text of the
                          printing and typesetting industry. Lorem
