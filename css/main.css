@@ -3939,3 +3939,8 @@ span {
 [dir="rtl"] .page-menu3 .category ul li {
     direction: rtl;
 }
+
+[dir="rtl"] .page-contactUs .innerContent main form fieldset.group .form-group.accept,
+[dir="rtl"] .page-contactUs .innerContent main form fieldset.group .form-group.agree{
+    align-items: flex-end;
+}
