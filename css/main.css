@@ -2407,6 +2407,10 @@ input::-webkit-inner-spin-button {
     position: relative;
 }
 
+[dir="rtl"] .range-input{
+        direction: ltr;
+}
+
 .range-input input {
     position: absolute;
     width: 100%;
