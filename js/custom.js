@@ -59,7 +59,7 @@ $(".news #newSlider").slick({
                 slidesToScroll: 1,
                 autoplay: true,
                 autoplaySpeed: 3000,
-                dots: false,
+                dots: true,
                 arrows: false
             }
         }
@@ -110,7 +110,7 @@ $(".ourMenu #ourMenuSlider").slick({
                 slidesToScroll: 1,
                 autoplay: true,
                 autoplaySpeed: 3000,
-                dots: false,
+                dots: true,
                 arrows: false
             }
         }
