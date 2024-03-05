@@ -3103,6 +3103,10 @@ input[type="range"]::-webkit-slider-thumb {
     background-color: var(--secondary-color);
 }
 
+.sideCart .modal.in .modal-dialog .modal-footer button a {
+    color: var(--white-color);
+}
+
 /* ========= side cart ========== */
 
 span {
