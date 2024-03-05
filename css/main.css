@@ -3084,6 +3084,7 @@ input[type="range"]::-webkit-slider-thumb {
     justify-content: center;
 }
 
+.sideCart .modal.in .modal-dialog .modal-footer button a,
 .sideCart .modal.in .modal-dialog .modal-footer button {
     color: var(--white-color);
     background-color: var(--black-color);
@@ -3096,6 +3097,7 @@ input[type="range"]::-webkit-slider-thumb {
     transition: all 0.3s;
 }
 
+.sideCart .modal.in .modal-dialog .modal-footer button a:hover,
 .sideCart .modal.in .modal-dialog .modal-footer button:hover {
     transition: all 0.3s;
     background-color: var(--secondary-color);
