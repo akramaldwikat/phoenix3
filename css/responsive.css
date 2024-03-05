@@ -301,6 +301,23 @@
         transition: all 0.5s;
     }
 
+    [dir="rtl"] header .headerBottom .headerBottomMobile .menuMobile {
+        background-color: var(--secondary-color);
+        position: absolute;
+        right: -100%;
+        top: 100%;
+        z-index: 999;
+        width: 100%;
+        height: 100vh;
+        padding: 25px 0;
+        transition: all 0.5s;
+    }
+
+    [dir="rtl"] header .headerBottom .headerBottomMobile .menuMobile.active{
+        right: 0;
+        transition: all 0.5s;
+    }
+
     header .headerBottom .headerBottomMobile .menuMobile .searchMobile {
         border-bottom: 2px solid var(--white-color);
         margin-bottom: 25px;
