@@ -275,6 +275,10 @@
         position: unset;
     }
 
+    header .headerBottom .headerBottomMobile .menuIcon{
+            rotate: 180deg;
+    }
+
     /* header .headerBottom .headerBottomMobile .menuMobile {
         display: none;
     } */
